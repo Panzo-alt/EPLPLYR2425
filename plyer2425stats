@@ -138,3 +138,11 @@ per90_stats['Goals Conceded Per 90'] = round(per90_stats['Goals Conceded'] / (pe
 per90_stats = per90_stats.drop(columns=['Nationality', 'Position', 'Goals', 'Assists', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides', 'Touches', 'Passes', 'Successful Passes', 'Passes%', 'Crosses', 'Successful Crosses', 'Crosses %', 'fThird Passes', 'Successful fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance', 'Possession Won', 'Dispossessed', 'Clean Sheets', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels Won', 'gDuels %', 'Aerial Duels', 'aDuels Won', 'aDuels %', 'Goals Conceded', 'xGoT Conceded', 'Own Goals', 'Fouls', 'Yellow Cards', 'Red Cards', 'Punches', 'Saves', 'Saves %', 'Penalties Saved', 'Clearances Off Line', 'High Claims', 'Goals Prevented'])
 per90_stats.to_csv(dir / "per90_stats.csv", index=False)
 
+#Strings to int/float conversion
+data['Conversion %'] = data['Conversion %'].str.rstrip('%').astype(float) / 100
+data['Passes%'] = data['Passes%'].str.rstrip('%').astype(float) / 100
+data['Crosses %'] = data['Crosses %'].str.rstrip('%').astype(float) / 100
+data['fThird Passes %'] = data['fThird Passes %'].str.rstrip('%').astype(float) / 100
+data['gDuels %'] = data['gDuels %'].str.rstrip('%').astype(float) / 100
+data['aDuels %'] = data['aDuels %'].str.rstrip('%').astype(float) / 100
+data['Saves %'] = data['Saves %'].str.rstrip('%').astype(float) / 100
