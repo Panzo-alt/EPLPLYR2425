@@ -17,17 +17,90 @@ fin_stats = data[['Player Name', 'Club', 'Goals', 'Shots', 'Shots On Target', 'C
 top_finishers = fin_stats[fin_stats.Goals > 10][['Player Name', 'Club', 'Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']].sort_values(by='Goals', ascending=False)
 top_finishers.to_csv(dir / "top_finishers.csv", index=False)
 
+#Best Finisher
+top_fin_per = top_finishers
+
+top_fin_per['Goals_Percentile'] = top_finishers['Goals'].rank(pct=True) * 100
+top_fin_per['Shots_Percentile'] = top_finishers['Shots'].rank(pct=True) * 100
+top_fin_per['Shots_On_Target_Percentile'] = top_finishers['Shots On Target'].rank(pct=True) * 100
+top_fin_per['Conversion_Percentile'] = top_finishers['Conversion %'].rank(pct=True) * 100
+
+top_fin_per = top_fin_per.drop(columns=['Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides'])
+top_fin_per['Attacking_Percentile'] = round((top_fin_per['Goals_Percentile'] + top_fin_per['Shots_Percentile'] + top_fin_per['Shots_On_Target_Percentile'] + top_fin_per['Conversion_Percentile']) / 4, 2)
+
+top_fin_per = top_fin_per.sort_values(by='Attacking_Percentile', ascending=False)
+top_fin_per.to_csv(dir / "top_finishers_percentiles.csv", index=False)
+
 #Creativity
 creativ_stats = data[['Player Name', 'Club', 'Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance']]
 top_creators = creativ_stats[creativ_stats.Assists > 5][['Player Name', 'Club', 'Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance']].sort_values(by='Assists', ascending=False)
 top_creators.to_csv(dir / "top_creators.csv", index=False)
 
-#Defence
+#Best Creator
+top_cre_per = top_creators
+
+top_cre_per['Assists_Percentile'] = round(top_creators['Assists'].rank(pct=True) * 100, 2)
+top_cre_per['Touches_Percentile'] = round(top_creators['Touches'].rank(pct=True) * 100, 2)
+top_cre_per['Passes_Percentile'] = round(top_creators['Passes'].rank(pct=True) * 100, 2)
+top_cre_per['Passes%_Percentile'] = round(top_creators['Passes%'].rank(pct=True) * 100, 2)
+top_cre_per['Crosses_Percentile'] = round(top_creators['Crosses'].rank(pct=True) * 100, 2)
+top_cre_per['Crosses%_Percentile'] = round(top_creators['Crosses %'].rank(pct=True) * 100, 2)
+top_cre_per['fThird Passes_Percentile'] = round(top_creators['fThird Passes'].rank(pct=True) * 100, 2)
+top_cre_per['fThird Passes%_Percentile'] = round(top_creators['fThird Passes %'].rank(pct=True) * 100, 2)
+top_cre_per['Through Balls_Percentile'] = round(top_creators['Through Balls'].rank(pct=True) * 100, 2)
+
+top_cre_per = top_cre_per.drop(columns=['Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance'])
+top_cre_per['Creativity_Percentile'] = round((top_cre_per['Assists_Percentile'] + top_cre_per['Touches_Percentile'] + top_cre_per['Passes_Percentile'] + top_cre_per['Passes%_Percentile'] + top_cre_per['Crosses_Percentile'] + top_cre_per['Crosses%_Percentile'] + top_cre_per['fThird Passes_Percentile'] + top_cre_per['fThird Passes%_Percentile'] + top_cre_per['Through Balls_Percentile']) / 9, 2)
+
+top_cre_per = top_cre_per.sort_values(by='Creativity_Percentile', ascending=False)
+top_cre_per.to_csv(dir / "top_creators_percentiles.csv", index=False)
+
+#Defence    
 def_stats = data[['Player Name', 'Club', 'Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']]
 top_defenders = data[data['Clean Sheets'] > 5][data['Position'] != 'GKP'][['Player Name', 'Club', 'Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']].sort_values(by='Clean Sheets', ascending=False)
 top_defenders.to_csv(dir / "top_defenders.csv", index=False)
+
+#Best Defender
+top_def_per = top_defenders
+
+top_def_per['Clean Sheets_Percentile'] = round(top_defenders['Clean Sheets'].rank(pct=True) * 100, 2)
+top_def_per['Possession Won_Percentile'] = round(top_defenders['Possession Won'].rank(pct=True) * 100, 2)
+top_def_per['Clearances_Percentile'] = round(top_defenders['Clearances'].rank(pct=True) * 100, 2)
+top_def_per['Interceptions_Percentile'] = round(top_defenders['Interceptions'].rank(pct=True) * 100, 2)
+top_def_per['Blocks_Percentile'] = round(top_defenders['Blocks'].rank(pct=True) * 100, 2)
+top_def_per['Tackles_Percentile'] = round(top_defenders['Tackles'].rank(pct=True) * 100, 2)
+top_def_per['Ground Duels_Percentile'] = round(top_defenders['Ground Duels'].rank(pct=True) * 100, 2)
+top_def_per['gDuels %_Percentile'] = round(top_defenders['gDuels %'].rank(pct=True) * 100, 2)
+top_def_per['Aerial Duels_Percentile'] = round(top_defenders['Aerial Duels'].rank(pct=True) * 100, 2)
+top_def_per['aDuels %_Percentile'] = round(top_defenders['aDuels %'].rank(pct=True) * 100, 2)
+top_def_per['xGoT Conceded_Percentile'] = round(top_defenders['xGoT Conceded'].rank(pct=True) * 100, 2)
+top_def_per['Goals Conceded_Percentile'] = round(top_defenders['Goals Conceded'].rank(pct=True) * 100, 2)
+
+top_def_per = top_def_per.drop(columns=['Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded'])
+top_def_per['Defending_Percentile'] = round((top_def_per['Clean Sheets_Percentile'] + top_def_per['Possession Won_Percentile'] + top_def_per['Clearances_Percentile'] + top_def_per['Interceptions_Percentile'] + top_def_per['Blocks_Percentile'] + top_def_per['Tackles_Percentile'] + top_def_per['Ground Duels_Percentile'] + top_def_per['gDuels %_Percentile'] + top_def_per['Aerial Duels_Percentile'] + top_def_per['aDuels %_Percentile'] + top_def_per['xGoT Conceded_Percentile'] + top_def_per['Goals Conceded_Percentile']) / 12, 2)
+
+top_def_per = top_def_per.sort_values(by='Defending_Percentile', ascending=False)
+top_def_per.to_csv(dir / "top_defenders_percentiles.csv", index=False)
 
 #Goalkeeper's Association
 gk_stats = data[['Player Name', 'Club', 'Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']]
 top_goalkeepers = data[data['Position'] == 'GKP'][data['Clean Sheets'] > 5][['Player Name', 'Club', 'Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']].sort_values(by='Clean Sheets', ascending=False)
 top_goalkeepers.to_csv(dir / "top_goalkeepers.csv", index=False)
+
+#Best Goalkeeper
+top_gk_per = top_goalkeepers
+
+top_gk_per['Clean Sheets_Percentile'] = round(top_goalkeepers['Clean Sheets'].rank(pct=True) * 100, 2)
+top_gk_per['Goals Conceded_Percentile'] = round(top_goalkeepers['Goals Conceded'].rank(pct=True) * 100, 2)
+top_gk_per['Saves_Percentile'] = round(top_goalkeepers['Saves'].rank(pct=True) * 100, 2)
+top_gk_per['Saves %_Percentile'] = round(top_goalkeepers['Saves %'].rank(pct=True) * 100, 2)
+top_gk_per['Penalties Saved_Percentile'] = round(top_goalkeepers['Penalties Saved'].rank(pct=True) * 100, 2)
+top_gk_per['Punches_Percentile'] = round(top_goalkeepers['Punches'].rank(pct=True) * 100, 2)
+top_gk_per['High Claims_Percentile'] = round(top_goalkeepers['High Claims'].rank(pct=True) * 100, 2)
+top_gk_per['Goals Prevented_Percentile'] = round(top_goalkeepers['Goals Prevented'].rank(pct=True) * 100, 2)
+
+top_gk_per = top_gk_per.drop(columns=['Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented'])
+top_gk_per['Goalkeeping_Percentile'] = round((top_gk_per['Clean Sheets_Percentile'] + top_gk_per['Goals Conceded_Percentile'] + top_gk_per['Saves_Percentile'] + top_gk_per['Saves %_Percentile'] + top_gk_per['Penalties Saved_Percentile'] + top_gk_per['Punches_Percentile'] + top_gk_per['High Claims_Percentile'] + top_gk_per['Goals Prevented_Percentile']) / 8, 2)
+
+top_gk_per = top_gk_per.sort_values(by='Goalkeeping_Percentile', ascending=False)
+top_gk_per.to_csv(dir / "top_goalkeepers_percentiles.csv", index=False)

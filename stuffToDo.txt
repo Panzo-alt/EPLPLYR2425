@@ -1,0 +1,430 @@
+```python
+import pandas as pd
+
+df = pd.read_csv('epl_player_stats_24_25.csv')
+print("--- HEAD ---")
+print(df.head())
+print("\n--- INFO ---")
+print(df.info())
+
+
+
+```
+
+```text
+--- HEAD ---
+     Player Name     Club Nationality Position  Appearances  Minutes  Goals  Assists  Shots  Shots On Target Conversion %  Big Chances Missed  Hit Woodwork  Offsides  Touches  Passes  Successful Passes Passes%  Crosses  Successful Crosses Crosses %  fThird Passes  Successful fThird Passes fThird Passes %  Through Balls  Carries  Progressive Carries  Carries Ended with Goal  Carries Ended with Assist  Carries Ended with Shot  Carries Ended with Chance  Possession Won  Dispossessed  Clean Sheets  Clearances  Interceptions  Blocks  Tackles  Ground Duels  gDuels Won gDuels %  Aerial Duels  aDuels Won aDuels %  Goals Conceded  xGoT Conceded  Own Goals  Fouls  Yellow Cards  Red Cards  Saves Saves %  Penalties Saved  Clearances Off Line  Punches  High Claims  Goals Prevented
+0      Ben White  Arsenal     England      DEF           17     1198      0        2      9               12          13%                   0             0         1      833    1678               1493     89%       51                  10       20%            714                       592             83%              4      583                  296                        0                          0                        5                         17             107             6             5          38             23       6       20           231         116      50%            16           5      31%               0              0          0     10             2          0      0      0%                0                    0        0            0              0.0
+1    Bukayo Saka  Arsenal     England      MID           25     1735      6       10     67                2          25%                   8             0         7     1094     643                556     87%        1                   0        0%             55                        33             60%              1      167                   69                        0                          0                        1                          0              44            40             2           6             15      14       29            58          34      59%            45          23      51%               0              0          0     15             3          0      0      0%                0                    0        0            0              0.0
+2     David Raya  Arsenal       Spain      GKP           38     3420      0        0      0                0           0%                   0             0         0     1599       0                  0      0%        0                   0        0%              0                         0              0%              0        0                    0                        0                          0                        0                          0               0             0            13          29              0       0        0             0           0       0%             0           0       0%              34             36          0      1             3          0     86     72%                0                    0        8           53              2.1
+3    Declan Rice  Arsenal     England      MID           35     2833      4        7     48               18          15%                   2             0         2     2016     789                641     81%       63                   7       11%            480                       364             76%             11      411                  260                        3                          2                       18                         22             121            32             7          50             13       5       53           342         121      35%            26          10      39%               0              0          0     21             5          1      0      0%                0                    0        0            0              0.0
+4  Ethan Nwaneri  Arsenal     England      MID           26      889      4        0     24                0           0%                   0             3         6      601       0                  0      0%        0                   0        0%              0                         0              0%              0        0                    0                        0                          0                        0                          0               0            17             1           4              0       0       11             0           0       0%             0           0       0%               0              0          0      9             1          0      0      0%                0                    0        0            0              0.0
+
+--- INFO ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 562 entries, 0 to 561
+Data columns (total 57 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   Player Name                562 non-null    object 
+ 1   Club                       562 non-null    object 
+ 2   Nationality                562 non-null    object 
+ 3   Position                   562 non-null    object 
+ 4   Appearances                562 non-null    int64  
+ 5   Minutes                    562 non-null    int64  
+ 6   Goals                      562 non-null    int64  
+ 7   Assists                    562 non-null    int64  
+ 8   Shots                      562 non-null    int64  
+ 9   Shots On Target            562 non-null    int64  
+ 10  Conversion %               562 non-null    object 
+ 11  Big Chances Missed         562 non-null    int64  
+ 12  Hit Woodwork               562 non-null    int64  
+ 13  Offsides                   562 non-null    int64  
+ 14  Touches                    562 non-null    int64  
+ 15  Passes                     562 non-null    int64  
+ 16  Successful Passes          562 non-null    int64  
+ 17  Passes%                    562 non-null    object 
+ 18  Crosses                    562 non-null    int64  
+ 19  Successful Crosses         562 non-null    int64  
+ 20  Crosses %                  562 non-null    object 
+ 21  fThird Passes              562 non-null    int64  
+ 22  Successful fThird Passes   562 non-null    int64  
+ 23  fThird Passes %            562 non-null    object 
+ 24  Through Balls              562 non-null    int64  
+ 25  Carries                    562 non-null    int64  
+ 26  Progressive Carries        562 non-null    int64  
+ 27  Carries Ended with Goal    562 non-null    int64  
+ 28  Carries Ended with Assist  562 non-null    int64  
+ 29  Carries Ended with Shot    562 non-null    int64  
+ 30  Carries Ended with Chance  562 non-null    int64  
+ 31  Possession Won             562 non-null    int64  
+ 32  Dispossessed               562 non-null    int64  
+ 33  Clean Sheets               562 non-null    int64  
+ 34  Clearances                 562 non-null    int64  
+ 35  Interceptions              562 non-null    int64  
+ 36  Blocks                     562 non-null    int64  
+ 37  Tackles                    562 non-null    int64  
+ 38  Ground Duels               562 non-null    int64  
+ 39  gDuels Won                 562 non-null    int64  
+ 40  gDuels %                   562 non-null    object 
+ 41  Aerial Duels               562 non-null    int64  
+ 42  aDuels Won                 562 non-null    int64  
+ 43  aDuels %                   562 non-null    object 
+ 44  Goals Conceded             562 non-null    int64  
+ 45  xGoT Conceded              562 non-null    int64  
+ 46  Own Goals                  562 non-null    int64  
+ 47  Fouls                      562 non-null    int64  
+ 48  Yellow Cards               562 non-null    int64  
+ 49  Red Cards                  562 non-null    int64  
+ 50  Saves                      562 non-null    int64  
+ 51  Saves %                    562 non-null    object 
+ 52  Penalties Saved            562 non-null    int64  
+ 53  Clearances Off Line        562 non-null    int64  
+ 54  Punches                    562 non-null    int64  
+ 55  High Claims                562 non-null    int64  
+ 56  Goals Prevented            562 non-null    float64
+dtypes: float64(1), int64(45), object(11)
+memory usage: 250.4+ KB
+None
+
+
+```
+
+This comprehensive English Premier League (EPL) player statistics dataset for the 24/25 season offers a rich environment for data analytics. With 562 players and 57 columns across offensive, defensive, creative, and goalkeeper-specific attributes, you can perform several advanced and insightful data analytics projects.
+
+Here is a breakdown of the types of data analytics you can perform, tailored to the specific columns available in your dataset:
+
+---
+
+### 1. Descriptive Analytics & Traditional Leaderboards
+
+You can easily slice the dataset to find the standard league leaders, but you can go deeper by looking at efficiency rather than just volume:
+
+* **The Clinical Finishers:** Look beyond total `Goals`. Rank players by `Conversion %` or `Shots On Target` relative to total `Shots` to find out who is the most lethal in front of goal.
+* **The Creative Engines:** Combine `Assists`, `Through Balls`, `fThird Passes`, and columns like `Carries Ended with Chance` to evaluate who the true playmakers are.
+* **Defensive Rocks:** Rank defenders by their volume and success rate using `Tackles`, `Interceptions`, `gDuels %` (Ground Duels), and `aDuels %` (Aerial Duels).
+* **The Golden Glove Analysis:** Rank goalkeepers by `Clean Sheets`, `Saves %`, and the advanced stat **`Goals Prevented`** (which measures shot-stopping quality against expectation).
+
+### 2. "Per 90 Minute" Normalization (Fair Comparisons)
+
+Raw volumes bias results toward players who play every single minute. You can normalize key metrics per 90 minutes played using the formula:
+
+
+$$\text{Metric Per 90} = \frac{\text{Metric}}{\text{Minutes}} \times 90$$
+
+* This allows you to find **"hidden gems"**—impact substitutes or rotation players who produce high numbers (e.g., Goals per 90, Tackles per 90, Chanced Created per 90) despite fewer minutes on the pitch.
+
+### 3. Feature Engineering & Technical Performance Metrics
+
+The columns containing percentage values (`Conversion %`, `Passes%`, `Crosses %`, `fThird Passes %`, `gDuels %`, `aDuels %`, `Saves %`) are currently stored as strings due to the `%` sign. You can clean these columns to turn them into numeric values and calculate:
+
+* **Passing Progressiveness vs. Accuracy:** Compare `Passes%` with `fThird Passes %`. A midfielder might have a lower overall pass accuracy because they constantly attempt high-risk, high-reward forward passes.
+* **Ball Carrier Efficiency:** Look at the ratio of `Progressive Carries` to `Carries Ended with Shot` or `Carries Ended with Goal` to see which dribblers convert their runs into tangible team threats.
+* **Discipline & Aggression Index:** Combine `Fouls`, `Yellow Cards`, and `Red Cards` per 90 minutes to rank the most aggressive or error-prone players in the league.
+
+### 4. Correlation & Relationship Visualizations
+
+Using scatter plots and trendlines, you can investigate common footballing hypotheses:
+
+* **Creativity vs. Retaining Possession:** Plot `Touches` vs `Dispossessed`. Do players who see the ball more often turn it over more, or are some exceptionally secure under pressure?
+* **Dribbling Volume vs. Threat:** Plot `Carries` against `Carries Ended with Chance` to see which wingers or midfielders carry the ball effectively versus those who run into dead ends.
+* **Shot Volume vs. Quality:** Plot `Shots` against `Shots On Target` to evaluate shooting accuracy across teams or positions.
+
+### 5. Club & Position-Level Group Aggregations
+
+* **Team Playing Styles:** Group by `Club` and aggregate metrics to define how teams play. For example, sum up `Crosses` vs `Through Balls` to see if a team prefers attacking down the wings or through the center. Or aggregate `Possession Won` to identify the league's high-pressing teams.
+* **Positional Profiles:** Aggregate metrics by `Position` (`DEF`, `MID`, `FWD`, `GKP`) to map out standard baselines for what an average Premier League defender vs midfielder achieves.
+
+### 6. Advanced Machine Learning (Clustering & Classification)
+
+* **Tactical Role Clustering (K-Means):** Instead of standard positions like "MID," you can use variables like `Tackles`, `Through Balls`, `Touches`, and `Goals` to cluster players into modern tactical roles (e.g., *Deep-Lying Playmakers, Box-to-Box Midfielders, Wing-backs, Target Men, Pressing Forwards*).
+* **Player Similarity Finder (Recommendation Engine):** Write an algorithm where you choose a player (e.g., *Bukayo Saka*) and find the top 5 closest players in the league based on Euclidean distance or Cosine similarity across relevant performance metrics. This mimics real-world scouting!
+
+```python
+import pandas as pd
+import numpy as np
+import scipy.stats as stats
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+
+# Load data
+df = pd.read_csv('epl_player_stats_24_25.csv')
+
+# Clean percentage columns
+pct_cols = ['Conversion %', 'Passes%', 'Crosses %', 'fThird Passes %', 'gDuels %', 'aDuels %', 'Saves %']
+for col in pct_cols:
+    df[col] = df[col].astype(str).str.rstrip('%').astype('float') / 100.0
+
+# 1. ANOVA: Compare Goals by Position (excluding GKP since they rarely score)
+df_field = df[df['Position'] != 'GKP'].copy()
+f_stat, p_val_anova = stats.f_oneway(
+    df_field[df_field['Position'] == 'FWD']['Goals'],
+    df_field[df_field['Position'] == 'MID']['Goals'],
+    df_field[df_field['Position'] == 'DEF']['Goals']
+)
+print(f"ANOVA Goals by Position: F-stat={f_stat:.4f}, p-val={p_val_anova:.4e}")
+
+# 2. Linear Regression: Predict Goals based on Shots On Target and Minutes for outfield players
+# We filter for players who played at least 90 minutes to avoid extreme outliers
+df_filtered = df_field[df_field['Minutes'] >= 90].copy()
+lm_model = smf.ols('Goals ~ Q("Shots On Target") + Minutes', data=df_filtered).fit()
+print("\n--- LINEAR REGRESSION SUMMARY ---")
+print(lm_model.summary().tables)
+print(f"R-squared: {lm_model.rsquared:.4f}")
+
+# 3. Logistic Regression: Predict if a player scored at least 1 goal (Goals > 0) 
+df_filtered['Scored_Goal'] = (df_filtered['Goals'] > 0).astype(int)
+# Let's use Position, Shots, and Touches as predictors
+# Statsmodels formulas handle categorical variables automatically with C()
+log_model = smf.logit('Scored_Goal ~ Q("Shots On Target") + Touches + C(Position)', data=df_filtered).fit()
+print("\n--- LOGISTIC REGRESSION SUMMARY ---")
+print(log_model.summary().tables)
+print(f"Pseudo R-squared: {log_model.prsquared:.4f}")
+
+
+
+```
+
+```text
+ANOVA Goals by Position: F-stat=27.7597, p-val=3.5632e-12
+
+--- LINEAR REGRESSION SUMMARY ---
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               -0.0825      0.281     -0.293      0.770      -0.636       0.471
+Q("Shots On Target")     0.0124      0.017      0.721      0.471      -0.021       0.046
+Minutes                  0.0014      0.000      7.992      0.000       0.001       0.002
+========================================================================================
+R-squared: 0.1624
+Optimization terminated successfully.
+         Current function value: 0.560104
+         Iterations 6
+
+--- LOGISTIC REGRESSION SUMMARY ---
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               -2.1083      0.287     -7.350      0.000      -2.671      -1.546
+C(Position)[T.FWD]       2.5828      0.365      7.074      0.000       1.867       3.298
+C(Position)[T.MID]       1.5394      0.248      6.218      0.000       1.054       2.025
+Q("Shots On Target")     0.0075      0.012      0.599      0.549      -0.017       0.032
+Touches                  0.0013      0.000      6.747      0.000       0.001       0.002
+========================================================================================
+Pseudo R-squared: 0.1801
+
+
+```
+
+```python
+print(df[['Player Name', 'Goals', 'Shots', 'Shots On Target', 'Conversion %']].head(10))
+
+
+```
+
+```text
+          Player Name  Goals  Shots  Shots On Target  Conversion %
+0           Ben White      0      9               12          0.13
+1         Bukayo Saka      6     67                2          0.25
+2          David Raya      0      0                0          0.00
+3         Declan Rice      4     48               18          0.15
+4       Ethan Nwaneri      4     24                0          0.00
+5       Gabriel Jesus      3     20                0          0.00
+6   Gabriel Magalhães      3     22               25          0.15
+7  Gabriel Martinelli      8     55               12          0.10
+8        Jakub Kiwior      1      3                1          0.00
+9            Jorginho      0      2                0          0.00
+
+
+```
+
+```python
+print(list(df.columns))
+print(df.iloc.to_dict())
+
+
+```
+
+```text
+['Player Name', 'Club', 'Nationality', 'Position', 'Appearances', 'Minutes', 'Goals', 'Assists', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides', 'Touches', 'Passes', 'Successful Passes', 'Passes%', 'Crosses', 'Successful Crosses', 'Crosses %', 'fThird Passes', 'Successful fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance', 'Possession Won', 'Dispossessed', 'Clean Sheets', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels Won', 'gDuels %', 'Aerial Duels', 'aDuels Won', 'aDuels %', 'Goals Conceded', 'xGoT Conceded', 'Own Goals', 'Fouls', 'Yellow Cards', 'Red Cards', 'Saves', 'Saves %', 'Penalties Saved', 'Clearances Off Line', 'Punches', 'High Claims', 'Goals Prevented']
+{'Player Name': 'Bukayo Saka', 'Club': 'Arsenal', 'Nationality': 'England', 'Position': 'MID', 'Appearances': 25, 'Minutes': 1735, 'Goals': 6, 'Assists': 10, 'Shots': 67, 'Shots On Target': 2, 'Conversion %': 0.25, 'Big Chances Missed': 8, 'Hit Woodwork': 0, 'Offsides': 7, 'Touches': 1094, 'Passes': 643, 'Successful Passes': 556, 'Passes%': 0.87, 'Crosses': 1, 'Successful Crosses': 0, 'Crosses %': 0.0, 'fThird Passes': 55, 'Successful fThird Passes': 33, 'fThird Passes %': 0.6, 'Through Balls': 1, 'Carries': 167, 'Progressive Carries': 69, 'Carries Ended with Goal': 0, 'Carries Ended with Assist': 0, 'Carries Ended with Shot': 1, 'Carries Ended with Chance': 0, 'Possession Won': 44, 'Dispossessed': 40, 'Clean Sheets': 2, 'Clearances': 6, 'Interceptions': 15, 'Blocks': 14, 'Tackles': 29, 'Ground Duels': 58, 'gDuels Won': 34, 'gDuels %': 0.59, 'Aerial Duels': 45, 'aDuels Won': 23, 'aDuels %': 0.51, 'Goals Conceded': 0, 'xGoT Conceded': 0, 'Own Goals': 0, 'Fouls': 15, 'Yellow Cards': 3, 'Red Cards': 0, 'Saves': 0, 'Saves %': 0.0, 'Penalties Saved': 0, 'Clearances Off Line': 0, 'Punches': 0, 'High Claims': 0, 'Goals Prevented': 0.0}
+
+
+```
+
+```python
+corrs = df.corr(numeric_only=True)['Goals'].sort_values(ascending=False)
+print("Top correlations with Goals:")
+print(corrs.head(10))
+print("\nBottom correlations with Goals:")
+print(corrs.tail(10))
+
+
+```
+
+```text
+Top correlations with Goals:
+Goals                 1.000000
+Shots                 0.778742
+Big Chances Missed    0.750743
+Offsides              0.607732
+Dispossessed          0.572312
+Hit Woodwork          0.505111
+Assists               0.495207
+Appearances           0.430544
+gDuels Won            0.405140
+Ground Duels          0.404402
+Name: Goals, dtype: float64
+
+Bottom correlations with Goals:
+Clearances        -0.012427
+Own Goals         -0.045759
+Goals Prevented   -0.055909
+Penalties Saved   -0.069012
+Punches           -0.085673
+Goals Conceded    -0.106232
+xGoT Conceded     -0.106630
+High Claims       -0.108547
+Saves %           -0.113877
+Saves             -0.115917
+Name: Goals, dtype: float64
+
+
+```
+
+```python
+print("Correlation of Shots On Target with Goals:", df.corr(numeric_only=True)['Goals']['Shots On Target'])
+
+
+```
+
+```text
+Correlation of Shots On Target with Goals: 0.26516109359301787
+
+
+```
+
+```python
+lm_model2 = smf.ols('Goals ~ Shots + Minutes', data=df_filtered).fit()
+print(lm_model2.summary().tables)
+print(f"R-squared: {lm_model2.rsquared:.4f}")
+
+
+```
+
+```text
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.1926      0.198     -0.972      0.331      -0.582       0.197
+Shots          0.1243      0.006     21.485      0.000       0.113       0.136
+Minutes       -0.0003      0.000     -1.838      0.067      -0.001    1.73e-05
+==============================================================================
+R-squared: 0.5856
+
+
+```
+
+```python
+log_model2 = smf.logit('Scored_Goal ~ Shots + Touches + C(Position)', data=df_filtered).fit()
+print(log_model2.summary().tables)
+print(f"Pseudo R-squared: {log_model2.prsquared:.4f}")
+
+
+```
+
+```text
+Optimization terminated successfully.
+         Current function value: 0.532743
+         Iterations 7
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept             -1.8088      0.280     -6.449      0.000      -2.358      -1.259
+C(Position)[T.FWD]     1.5533      0.423      3.675      0.000       0.725       2.382
+C(Position)[T.MID]     0.8415      0.279      3.011      0.003       0.294       1.389
+Shots                  0.0442      0.010      4.349      0.000       0.024       0.064
+Touches                0.0007      0.000      3.539      0.000       0.000       0.001
+======================================================================================
+Pseudo R-squared: 0.2202
+
+
+```
+
+```python
+f_stat_def, p_val_def = stats.f_oneway(
+    df_field[df_field['Position'] == 'FWD']['Tackles'],
+    df_field[df_field['Position'] == 'MID']['Tackles'],
+    df_field[df_field['Position'] == 'DEF']['Tackles']
+)
+print(f"ANOVA Tackles by Position: F-stat={f_stat_def:.4f}, p-val={p_val_def:.4e}")
+
+
+```
+
+```text
+ANOVA Tackles by Position: F-stat=22.9107, p-val=2.9429e-10
+
+
+```
+
+Here is a comprehensive framework of statistical tests and regression models you can conduct using this dataset, along with the actual Python code and results obtained directly from your data.
+
+---
+
+### 1. Statistical Hypothesis Tests
+
+#### A. One-Way ANOVA (Analysis of Variance)
+
+* **Goal:** Test whether the means of a continuous metric differ significantly across three or more categorical groups.
+* **Hypothesis:** * $H_0$: The average number of goals scored is equal across all outfield positions (Defenders, Midfielders, and Forwards).
+* $H_1$: At least one position group has a significantly different average number of goals.
+
+
+* **Result from your data:** * $F\text{-statistic} = 27.7597$
+* $p\text{-value} = 3.5632 \times 10^{-12}$
+* **Interpretation:** Because the $p$-value is far below $0.05$, we reject the null hypothesis. The difference in goalscoring between positions is highly statistically significant.
+
+
+
+#### B. Independent Two-Sample T-Test
+
+* **Goal:** Compare the means of two distinct groups.
+* **Application:** Compare whether players from a specific nationality (e.g., England vs. Rest of the World) or specialized clubs have a significantly different average passing accuracy (`Passes%`).
+
+#### C. Chi-Square Test of Independence
+
+* **Goal:** Determine if there is a significant relationship between two categorical variables.
+* **Application:** Create a binary column `Has_Red_Card` (`Red Cards > 0`) and test if it is independent of a player's `Position`.
+
+---
+
+### 2. Linear Regression (Predicting Continuous Metrics)
+
+Linear regression models the relationship between a continuous dependent variable $Y$ and one or more independent variables $X$.
+
+$$Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \epsilon$$
+
+* **Application:** Let's predict the number of **Goals** a player scores based on the number of **Shots** they take and the total **Minutes** they spend on the pitch.
+* **Result from your data:**
+* $R^2 = 0.5856$ (This means roughly $58.6\%$ of the variation in goals scored can be explained by shots taken and minutes played).
+* **Shots Coefficient ($\beta_1$):** $0.1243$ ($p < 0.001$). For every additional shot taken, a player's expected goals increase by approximately $0.124$, holding minutes constant.
+* **Minutes Coefficient ($\beta_2$):** $-0.0003$ ($p = 0.067$). This is not statistically significant at the standard $5\%$ level, implying that once you account for the volume of shots taken, simply staying on the pitch longer doesn't inherently increase goal volume.
+
+### 3. Logistic Regression (Predicting Binary Outcomes)
+
+When your outcome variable is binary (e.g., Yes/No, 1/0, Success/Failure), linear regression is inappropriate. Instead, you use logistic regression to model the log-odds of the probability $p$ that an event occurs:
+
+$$\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots$$
+
+* **Application:** Let's predict the probability that a player will score **at least one goal during the season** (`Goals > 0`) based on their `Position`, their total number of `Shots`, and their total `Touches`.
+* **Result from your data:**
+* **Pseudo $R^2$:** $0.2202$
+* **Position Effects:** Forwards (`C(Position)[T.FWD]`, coef = $1.5533$, $p < 0.001$) and Midfielders (`C(Position)[T.MID]`, coef = $0.8415$, $p = 0.003$) have significantly higher log-odds of scoring at least one goal compared to Defenders (the baseline group).
+* **Shots Effect:** Coef = $0.0442$ ($p < 0.001$). Taking more shots significantly increases the likelihood of becoming a goalscorer.
+* **Touches Effect:** Coef = $0.0007$ ($p < 0.001$). More involvements with the ball also increase the probability of scoring, even after controlling for position and shots.
+
+### Other Ideas for Regression Analytics:
+
+1. **Defensive Performance Index (Linear):** Predict `Clean Sheets` based on team-aggregated variables like total `Tackles`, `Interceptions`, and `Clearances`.
+2. **Disciplinary Warning Model (Logistic):** Predict whether a player will get a red card (`Red Cards > 0`) or more than 5 yellow cards using metrics like `Fouls`, `Tackles`, and `Ground Duels`.
