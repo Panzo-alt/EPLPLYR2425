@@ -104,3 +104,37 @@ top_gk_per['Goalkeeping_Percentile'] = round((top_gk_per['Clean Sheets_Percentil
 
 top_gk_per = top_gk_per.sort_values(by='Goalkeeping_Percentile', ascending=False)
 top_gk_per.to_csv(dir / "top_goalkeepers_percentiles.csv", index=False)
+
+#Per 90 analysis
+per90_stats = data
+
+per90_stats['Goals Per 90'] = round(per90_stats['Goals'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Assists Per 90'] = round(per90_stats['Assists'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Shots Per 90'] = round(per90_stats['Shots'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Shots On Target Per 90'] = round(per90_stats['Shots On Target'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Big Chances Missed Per 90'] = round(per90_stats['Big Chances Missed'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Touches Per 90'] = round(per90_stats['Touches'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Passes Per 90'] = round(per90_stats['Passes'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Successful Passes Per 90'] = round(per90_stats['Successful Passes'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Crosses Per 90'] = round(per90_stats['Crosses'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Successful Crosses Per 90'] = round(per90_stats['Successful Crosses'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['fThird Passes Per 90'] = round(per90_stats['fThird Passes'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Successful fThird Passes Per 90'] = round(per90_stats['Successful fThird Passes'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Through Balls Per 90'] = round(per90_stats['Through Balls'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Carries Per 90'] = round(per90_stats['Carries'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Progressive Carries Per 90'] = round(per90_stats['Progressive Carries'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Possession Won Per 90'] = round(per90_stats['Possession Won'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Dispossessed Per 90'] = round(per90_stats['Dispossessed'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Clearances Per 90'] = round(per90_stats['Clearances'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Interceptions Per 90'] = round(per90_stats['Interceptions'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Blocks Per 90'] = round(per90_stats['Blocks'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Tackles Per 90'] = round(per90_stats['Tackles'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Ground Duels Per 90'] = round(per90_stats['Ground Duels'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['gDuels Won Per 90'] = round(per90_stats['gDuels Won'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Aerial Duels Per 90'] = round(per90_stats['Aerial Duels'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['aDuels Won Per 90'] = round(per90_stats['aDuels Won'] / (per90_stats['Minutes'] / 90), 2)
+per90_stats['Goals Conceded Per 90'] = round(per90_stats['Goals Conceded'] / (per90_stats['Minutes'] / 90), 2)
+
+per90_stats = per90_stats.drop(columns=['Nationality', 'Position', 'Goals', 'Assists', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides', 'Touches', 'Passes', 'Successful Passes', 'Passes%', 'Crosses', 'Successful Crosses', 'Crosses %', 'fThird Passes', 'Successful fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance', 'Possession Won', 'Dispossessed', 'Clean Sheets', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels Won', 'gDuels %', 'Aerial Duels', 'aDuels Won', 'aDuels %', 'Goals Conceded', 'xGoT Conceded', 'Own Goals', 'Fouls', 'Yellow Cards', 'Red Cards', 'Punches', 'Saves', 'Saves %', 'Penalties Saved', 'Clearances Off Line', 'High Claims', 'Goals Prevented'])
+per90_stats.to_csv(dir / "per90_stats.csv", index=False)
+
