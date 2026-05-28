@@ -8,6 +8,8 @@ import os
 data = pd.read_csv("epl_player_stats_24_25.csv", delimiter=",")
 
 dir = Path("reports")
+gir = Path("graphs")
+gir.mkdir(parents=True, exist_ok=True)
 dir.mkdir(parents=True, exist_ok=True)
 
 #Descriptive Analytics & Traditional Leaderboards
@@ -146,3 +148,36 @@ data['fThird Passes %'] = data['fThird Passes %'].str.rstrip('%').astype(float) 
 data['gDuels %'] = data['gDuels %'].str.rstrip('%').astype(float) / 100
 data['aDuels %'] = data['aDuels %'].str.rstrip('%').astype(float) / 100
 data['Saves %'] = data['Saves %'].str.rstrip('%').astype(float) / 100
+
+#Correlation & Relationship Visualisations
+
+#Touches vs. Dispossessed
+plt.figure(figsize=(10, 6))
+plt.plot(data['Touches'], data['Dispossessed'], 'o', alpha=0.5, color='#1f77b4')
+plt.title('Touches vs. Dispossessed', fontsize=14, pad=15)
+plt.xlabel('Touches', fontsize=12)
+plt.ylabel('Dispossessed', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.savefig(gir / "touches_vs_dispossessed.png")
+plt.close()
+
+#Carries vs. Carries Ended with Chance(forwards/midfielders)
+plt.figure(figsize=(10, 6))
+plt.plot(data[(data['Position'] != 'GKP') & (data['Position'] != 'DEF')]['Carries'], data[(data['Position'] != 'GKP') & (data['Position'] != 'DEF')]['Carries Ended with Chance'], 'o', alpha=0.5, color='#ff7f0e')
+plt.title('Carries vs. Carries Ended with Chance', fontsize=14, pad=15)
+plt.xlabel('Carries', fontsize=12)
+plt.ylabel('Carries Ended with Chance', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.savefig(gir / "carries_vs_chances.png")
+plt.close()
+
+#Shots on Target vs. Goals(forwards/midfielders)
+plt.figure(figsize=(10, 6))
+plt.plot(data[(data['Position'] != 'GKP') & (data['Position'] != 'DEF')]['Shots On Target'], data[(data['Position'] != 'GKP') & (data['Position'] != 'DEF')]['Goals'], 'o', alpha=0.5, color='#2ca02c')
+plt.title('Shots on Target vs. Goals', fontsize=14, pad=15)
+plt.xlabel('Shots On Target', fontsize=12)
+plt.ylabel('Goals', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.savefig(gir / "shots_on_target_vs_goals.png")
+plt.close()
+
