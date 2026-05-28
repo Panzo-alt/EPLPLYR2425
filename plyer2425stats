@@ -181,3 +181,62 @@ plt.grid(True, linestyle='--', alpha=0.6)
 plt.savefig(gir / "shots_on_target_vs_goals.png")
 plt.close()
 
+#Club & Position-Level Group Aggregations
+club_stats = data.groupby('Club').agg({
+    'Goals': 'sum',
+    'Assists': 'sum',
+    'Shots': 'sum',
+    'Shots On Target': 'sum',
+    'Conversion %': 'mean',
+    'Big Chances Missed': 'sum',
+    'Hit Woodwork': 'sum',
+    'Offsides': 'sum',
+    'Touches': 'sum',
+    'Passes': 'sum',
+    'Successful Passes': 'sum',
+    'Passes%': 'mean',
+    'Crosses': 'sum',
+    'Successful Crosses': 'sum',
+    'Crosses %': 'mean',
+    'fThird Passes': 'sum',
+    'Successful fThird Passes': 'sum',
+    'fThird Passes %': 'mean',
+    'Through Balls': 'sum',
+    'Carries': 'sum',
+    'Progressive Carries': 'sum',
+    'Carries Ended with Goal': 'sum',
+    'Carries Ended with Assist': 'sum',
+    'Carries Ended with Shot': 'sum',
+    'Carries Ended with Chance': 'sum',
+    'Possession Won': 'sum',
+    'Dispossessed': 'sum',
+    'Clean Sheets': 'sum',
+    'Clearances': 'sum',
+    'Interceptions': 'sum',
+    'Blocks': 'sum',
+    'Tackles': 'sum',
+    'Ground Duels': 'sum',
+    'gDuels Won': 'sum',
+    'gDuels %': 'mean',
+    'Aerial Duels': 'sum',
+    'aDuels Won': 'sum',
+    'aDuels %': 'mean',
+    'Goals Conceded': 'sum',
+    'xGoT Conceded': 'sum',
+    'Own Goals': 'sum',
+    'Fouls': 'sum',
+    'Yellow Cards': 'sum',
+    'Red Cards': 'sum',
+    'Saves': 'sum',
+    'Saves %': 'mean',
+    'Penalties Saved': 'sum',
+    'Clearances Off Line': 'sum',
+    'Punches': 'sum',
+    'High Claims': 'sum',
+    'Goals Prevented': 'sum'
+})
+
+pct_cols = ['Conversion %', 'Passes%', 'Crosses %', 'fThird Passes %', 'gDuels %', 'aDuels %', 'Saves %']
+
+club_stats[pct_cols] = (club_stats[pct_cols] * 100).round(2)
+club_stats.to_csv(dir / "club_stats.csv")
