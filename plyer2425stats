@@ -3,7 +3,8 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import os
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 
 data = pd.read_csv("epl_player_stats_24_25.csv", delimiter=",")
 
@@ -239,7 +240,7 @@ club_stats = data.groupby('Club').agg({
 pct_cols = ['Conversion %', 'Passes%', 'Crosses %', 'fThird Passes %', 'gDuels %', 'aDuels %', 'Saves %']
 
 club_stats[pct_cols] = (club_stats[pct_cols] * 100).round(2)
-club_stats.to_csv(dir / "club_stats.csv")
+#club_stats.to_csv(dir / "club_stats.csv")
 
 #Crosses vs. Through Balls for clubs
 plt.figure(figsize=(20, 6))
@@ -260,3 +261,47 @@ plt.ylabel('Goals', fontsize=12)
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.savefig(gir / "goals_vs_shots_on_target.png")
 plt.close()
+
+#Advanced Machine Learning (Clustering & Classification)
+#stan_epl_player_stats = data
+#scaler = StandardScaler()
+#cols_to_stan = ['Goals', 'Assists', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides', 'Touches', 'Passes', 'Successful Passes', 'Passes%', 'Crosses', 'Successful Crosses', 'Crosses %', 'fThird Passes', 'Successful fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance', 'Possession Won', 'Dispossessed', 'Clean Sheets', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels Won', 'gDuels %', 'Aerial Duels', 'aDuels Won', 'aDuels %', 'Goals Conceded', 'xGoT Conceded', 'Own Goals', 'Fouls', 'Yellow Cards', 'Red Cards', 'Saves', 'Saves %', 'Penalties Saved', 'Clearances Off Line', 'Punches', 'High Claims', 'Goals Prevented']
+#stan_epl_player_stats[cols_to_stan] = scaler.fit_transform(stan_epl_player_stats[cols_to_stan])
+#stan_epl_player_stats.to_csv(dir / "stan_epl_player_stats.csv", index=False)
+
+#Attack K-Means
+attack_features = [
+    'Goals', 'Shots', 'Shots On Target', 'Conversion %', 
+    'Big Chances Missed', 'Hit Woodwork', 'Offsides'
+]
+
+X_attack = data[(data['Position'] != 'GK') & (data['Position'] != 'DEF') & (data['Position'] != 'MID')][attack_features].dropna()
+
+inertias = []
+
+for i in range(1, 11):
+    # Added random_state=42 so you get the exact same clusters every time you run it
+    kmeans = KMeans(n_clusters=i, random_state=42) 
+    kmeans.fit(X_attack)
+    inertias.append(kmeans.inertia_)
+
+plt.figure(figsize=(8, 5)) # Good practice to initialize the figure
+plt.plot(range(1, 11), inertias, marker='o', color='#1f77b4')
+plt.title('Elbow Method for Attack Clusters', fontsize=14, pad=15)
+plt.xlabel('Number of Clusters', fontsize=12)
+plt.ylabel('Inertia', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+
+plt.show()
+
+kmeans_attack = KMeans(n_clusters=2, random_state=42)
+kmeans.fit(X_attack)
+
+plt.scatter(X_attack['Shots'], X_attack['Goals'], c=kmeans.labels_, cmap='viridis', alpha=0.5)
+plt.title('Attack Clusters: Shots vs. Goals', fontsize=14, pad=15)
+plt.xlabel('Shots', fontsize=12)
+plt.ylabel('Goals', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.show()
+
+#Player Similarity Finder
