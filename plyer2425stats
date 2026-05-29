@@ -240,3 +240,23 @@ pct_cols = ['Conversion %', 'Passes%', 'Crosses %', 'fThird Passes %', 'gDuels %
 
 club_stats[pct_cols] = (club_stats[pct_cols] * 100).round(2)
 club_stats.to_csv(dir / "club_stats.csv")
+
+#Crosses vs. Through Balls for clubs
+plt.figure(figsize=(20, 6))
+sns.scatterplot(x=club_stats['Crosses'], y=club_stats['Through Balls'], hue=club_stats.index, palette='tab10', s=100)
+plt.title('Crosses vs. Through Balls by Club', fontsize=14, pad=15)
+plt.xlabel('Crosses', fontsize=12)
+plt.ylabel('Through Balls', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.savefig(gir / "crosses_vs_through_balls.png")
+plt.close()
+
+#Goals vs. Shots On Target for clubs
+plt.figure(figsize=(20, 6))
+sns.scatterplot(x=club_stats['Shots On Target'], y=club_stats['Goals'], hue=club_stats.index, palette='tab10', s=100)
+plt.title('Goals vs. Shots On Target by Club', fontsize=14, pad=15)
+plt.xlabel('Shots On Target', fontsize=12)
+plt.ylabel('Goals', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.savefig(gir / "goals_vs_shots_on_target.png")
+plt.close()
