@@ -1,0 +1,2 @@
+vector = np.array(data[data['Player Name'] == 'Ben White'][['Clean Sheets', 'Possession Won', 'Clearances']])   
+print(vector)

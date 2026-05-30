@@ -1,31 +1,31 @@
 Player Name,Club,Assists,Touches,Passes,Passes%,Crosses,Crosses %,fThird Passes,fThird Passes %,Through Balls,Carries,Progressive Carries,Carries Ended with Goal,Carries Ended with Assist,Carries Ended with Shot,Carries Ended with Chance
-Mohamed Salah,Liverpool,18,1864,769,90%,81,26%,274,85%,2,435,231,0,0,26,14
-Jacob Murphy,Newcastle United,12,1364,569,87%,12,17%,273,82%,3,223,134,1,1,9,5
-Anthony Elanga,Nottingham Forest,11,1216,809,81%,76,28%,429,77%,9,413,209,2,3,20,15
-Mikkel Damsgaard,Brentford,10,2034,1350,80%,132,27%,476,73%,2,426,272,1,3,6,13
-Bukayo Saka,Arsenal,10,1094,643,87%,1,0%,55,60%,1,167,69,0,0,1,0
-Morgan Rogers,Aston Villa,10,1528,1420,80%,8,25%,352,61%,8,307,187,0,0,6,3
-Bruno Fernandes,Manchester United,10,2781,1758,84%,18,33%,705,76%,22,589,254,1,2,9,15
-Son Heung-Min,Tottenham Hotspur,9,1217,528,83%,62,16%,235,76%,6,279,177,0,1,10,11
-Jarrod Bowen,West Ham United,8,1411,1071,88%,3,0%,101,59%,0,232,112,0,0,0,1
-Morgan Gibbs-White,Nottingham Forest,8,1739,864,75%,27,15%,422,70%,22,381,234,4,4,22,20
-Eberechi Eze,Crystal Palace,8,1586,235,76%,5,0%,100,69%,2,114,73,0,0,12,7
-Ollie Watkins,Aston Villa,8,784,286,84%,13,31%,162,81%,2,144,83,2,0,12,4
-Cole Palmer,Chelsea,8,2005,1067,92%,0,0%,89,49%,2,225,116,0,0,0,1
-Martin Ødegaard,Arsenal,8,1791,1878,93%,0,0%,721,89%,15,575,259,1,1,6,12
-Savinho,Manchester City,8,1208,1209,86%,7,43%,191,62%,0,237,127,0,0,1,1
-Jean-Ricner Bellegarde,Wolverhampton Wanderers,7,924,1055,78%,12,42%,271,62%,9,155,65,0,0,2,0
-Enzo Fernández,Chelsea,7,2327,375,68%,3,33%,196,64%,1,101,45,6,1,13,4
-Adama Traoré,Fulham,7,888,484,81%,100,30%,238,80%,6,315,187,0,4,10,23
-Bryan Mbeumo,Brentford,7,1915,598,84%,56,23%,391,83%,4,320,192,2,4,25,12
-Leandro Trossard,Arsenal,7,1410,950,81%,68,21%,295,75%,3,216,135,0,2,2,11
-Declan Rice,Arsenal,7,2016,789,81%,63,11%,480,76%,11,411,260,3,2,18,22
-Youri Tielemans,Aston Villa,7,2517,722,85%,55,16%,219,80%,1,154,98,0,1,2,5
-Kevin De Bruyne,Manchester City,7,1425,448,64%,38,13%,261,63%,1,207,121,3,1,14,7
-James Maddison,Tottenham Hotspur,7,1583,1277,82%,1,0%,263,51%,2,235,128,0,1,0,4
-Ismaïla Sarr,Crystal Palace,6,1198,755,88%,1,0%,86,63%,0,161,78,0,0,0,0
-Dominik Szoboszlai,Liverpool,6,1661,505,83%,46,24%,226,74%,8,205,98,2,1,9,10
-Amad Diallo,Manchester United,6,1319,799,88%,2,100%,178,80%,3,188,87,0,0,4,4
-Jérémy Doku,Manchester City,6,1209,2054,83%,13,23%,429,61%,0,435,225,0,0,1,1
-Elliot Anderson,Nottingham Forest,6,2006,868,82%,33,18%,238,74%,1,194,128,0,0,3,3
-Matheus Cunha,Wolverhampton Wanderers,6,1749,1079,89%,40,23%,441,84%,3,290,157,0,3,1,4
+Mohamed Salah,Liverpool,18,1864,769,0.9,81,0.26,274,0.85,2,435,231,0,0,26,14
+Jacob Murphy,Newcastle United,12,1364,569,0.87,12,0.17,273,0.82,3,223,134,1,1,9,5
+Anthony Elanga,Nottingham Forest,11,1216,809,0.81,76,0.28,429,0.77,9,413,209,2,3,20,15
+Mikkel Damsgaard,Brentford,10,2034,1350,0.8,132,0.27,476,0.73,2,426,272,1,3,6,13
+Bukayo Saka,Arsenal,10,1094,643,0.87,1,0.0,55,0.6,1,167,69,0,0,1,0
+Morgan Rogers,Aston Villa,10,1528,1420,0.8,8,0.25,352,0.61,8,307,187,0,0,6,3
+Bruno Fernandes,Manchester United,10,2781,1758,0.84,18,0.33,705,0.76,22,589,254,1,2,9,15
+Son Heung-Min,Tottenham Hotspur,9,1217,528,0.83,62,0.16,235,0.76,6,279,177,0,1,10,11
+Jarrod Bowen,West Ham United,8,1411,1071,0.88,3,0.0,101,0.59,0,232,112,0,0,0,1
+Morgan Gibbs-White,Nottingham Forest,8,1739,864,0.75,27,0.15,422,0.7,22,381,234,4,4,22,20
+Eberechi Eze,Crystal Palace,8,1586,235,0.76,5,0.0,100,0.69,2,114,73,0,0,12,7
+Ollie Watkins,Aston Villa,8,784,286,0.84,13,0.31,162,0.81,2,144,83,2,0,12,4
+Cole Palmer,Chelsea,8,2005,1067,0.92,0,0.0,89,0.49,2,225,116,0,0,0,1
+Martin Ødegaard,Arsenal,8,1791,1878,0.93,0,0.0,721,0.89,15,575,259,1,1,6,12
+Savinho,Manchester City,8,1208,1209,0.86,7,0.43,191,0.62,0,237,127,0,0,1,1
+Jean-Ricner Bellegarde,Wolverhampton Wanderers,7,924,1055,0.78,12,0.42,271,0.62,9,155,65,0,0,2,0
+Enzo Fernández,Chelsea,7,2327,375,0.68,3,0.33,196,0.64,1,101,45,6,1,13,4
+Adama Traoré,Fulham,7,888,484,0.81,100,0.3,238,0.8,6,315,187,0,4,10,23
+Bryan Mbeumo,Brentford,7,1915,598,0.84,56,0.23,391,0.83,4,320,192,2,4,25,12
+Leandro Trossard,Arsenal,7,1410,950,0.81,68,0.21,295,0.75,3,216,135,0,2,2,11
+Declan Rice,Arsenal,7,2016,789,0.81,63,0.11,480,0.76,11,411,260,3,2,18,22
+Youri Tielemans,Aston Villa,7,2517,722,0.85,55,0.16,219,0.8,1,154,98,0,1,2,5
+Kevin De Bruyne,Manchester City,7,1425,448,0.64,38,0.13,261,0.63,1,207,121,3,1,14,7
+James Maddison,Tottenham Hotspur,7,1583,1277,0.82,1,0.0,263,0.51,2,235,128,0,1,0,4
+Ismaïla Sarr,Crystal Palace,6,1198,755,0.88,1,0.0,86,0.63,0,161,78,0,0,0,0
+Dominik Szoboszlai,Liverpool,6,1661,505,0.83,46,0.24,226,0.74,8,205,98,2,1,9,10
+Amad Diallo,Manchester United,6,1319,799,0.88,2,1.0,178,0.8,3,188,87,0,0,4,4
+Jérémy Doku,Manchester City,6,1209,2054,0.83,13,0.23,429,0.61,0,435,225,0,0,1,1
+Elliot Anderson,Nottingham Forest,6,2006,868,0.82,33,0.18,238,0.74,1,194,128,0,0,3,3
+Matheus Cunha,Wolverhampton Wanderers,6,1749,1079,0.89,40,0.23,441,0.84,3,290,157,0,3,1,4

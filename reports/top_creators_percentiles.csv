@@ -1,31 +1,31 @@
 Player Name,Club,Assists_Percentile,Touches_Percentile,Passes_Percentile,Passes%_Percentile,Crosses_Percentile,Crosses%_Percentile,fThird Passes_Percentile,fThird Passes%_Percentile,Through Balls_Percentile,Creativity_Percentile
-Bruno Fernandes,Manchester United,85.0,100.0,93.33,60.0,53.33,91.67,96.67,63.33,98.33,82.41
-Mohamed Salah,Liverpool,100.0,73.33,43.33,93.33,93.33,73.33,63.33,96.67,41.67,75.37
+Bruno Fernandes,Manchester United,85.0,100.0,93.33,60.0,53.33,88.33,96.67,63.33,98.33,82.04
+Mohamed Salah,Liverpool,100.0,73.33,43.33,93.33,93.33,70.0,63.33,96.67,41.67,75.0
 Martin Ødegaard,Arsenal,63.33,70.0,96.67,100.0,5.0,13.33,100.0,100.0,93.33,71.3
-Mikkel Damsgaard,Brentford,85.0,90.0,86.67,21.67,100.0,76.67,90.0,46.67,41.67,70.93
-Anthony Elanga,Nottingham Forest,93.33,26.67,53.33,31.67,90.0,80.0,81.67,70.0,85.0,67.96
-Matheus Cunha,Wolverhampton Wanderers,11.67,66.67,76.67,90.0,66.67,60.0,86.67,93.33,58.33,67.78
-Bryan Mbeumo,Brentford,36.67,76.67,30.0,60.0,76.67,60.0,73.33,90.0,66.67,63.33
-Declan Rice,Arsenal,36.67,86.67,46.67,31.67,83.33,30.0,93.33,63.33,90.0,62.41
-Jacob Murphy,Newcastle United,96.67,36.67,26.67,75.0,41.67,46.67,60.0,86.67,58.33,58.71
-Morgan Rogers,Aston Villa,85.0,50.0,90.0,21.67,36.67,70.0,70.0,18.33,78.33,57.78
-Morgan Gibbs-White,Nottingham Forest,63.33,63.33,56.67,10.0,56.67,36.67,76.67,43.33,98.33,56.11
-Leandro Trossard,Arsenal,36.67,40.0,63.33,31.67,86.67,53.33,66.67,56.67,58.33,54.82
-Youri Tielemans,Aston Villa,36.67,96.67,36.67,66.67,73.33,41.67,33.33,76.67,23.33,53.89
-Son Heung-Min,Tottenham Hotspur,76.67,30.0,23.33,50.0,80.0,41.67,40.0,63.33,71.67,52.96
-Adama Traoré,Fulham,36.67,6.67,16.67,31.67,96.67,83.33,45.0,76.67,71.67,51.67
-Dominik Szoboszlai,Liverpool,11.67,60.0,20.0,50.0,70.0,66.67,36.67,51.67,78.33,49.45
-Jean-Ricner Bellegarde,Wolverhampton Wanderers,36.67,10.0,66.67,16.67,41.67,96.67,56.67,25.0,85.0,48.34
-Elliot Anderson,Nottingham Forest,11.67,83.33,60.0,41.67,60.0,50.0,45.0,51.67,23.33,47.41
-Savinho,Manchester City,63.33,20.0,80.0,70.0,33.33,100.0,26.67,25.0,8.33,47.41
-Ollie Watkins,Aston Villa,63.33,3.33,6.67,60.0,48.33,86.67,20.0,83.33,41.67,45.93
-Jérémy Doku,Manchester City,11.67,23.33,100.0,50.0,48.33,60.0,81.67,18.33,8.33,44.63
+Mikkel Damsgaard,Brentford,85.0,90.0,86.67,21.67,100.0,73.33,90.0,46.67,41.67,70.56
+Anthony Elanga,Nottingham Forest,93.33,26.67,53.33,31.67,90.0,76.67,81.67,70.0,85.0,67.59
+Matheus Cunha,Wolverhampton Wanderers,11.67,66.67,76.67,90.0,66.67,56.67,86.67,93.33,58.33,67.41
+Bryan Mbeumo,Brentford,36.67,76.67,30.0,60.0,76.67,56.67,73.33,90.0,66.67,62.96
+Declan Rice,Arsenal,36.67,86.67,46.67,31.67,83.33,26.67,93.33,63.33,90.0,62.04
+Jacob Murphy,Newcastle United,96.67,36.67,26.67,75.0,41.67,43.33,60.0,86.67,58.33,58.33
+Morgan Rogers,Aston Villa,85.0,50.0,90.0,21.67,36.67,66.67,70.0,18.33,78.33,57.41
+Morgan Gibbs-White,Nottingham Forest,63.33,63.33,56.67,10.0,56.67,33.33,76.67,43.33,98.33,55.74
+Leandro Trossard,Arsenal,36.67,40.0,63.33,31.67,86.67,50.0,66.67,56.67,58.33,54.45
+Youri Tielemans,Aston Villa,36.67,96.67,36.67,66.67,73.33,38.33,33.33,76.67,23.33,53.52
+Son Heung-Min,Tottenham Hotspur,76.67,30.0,23.33,50.0,80.0,38.33,40.0,63.33,71.67,52.59
+Adama Traoré,Fulham,36.67,6.67,16.67,31.67,96.67,80.0,45.0,76.67,71.67,51.3
+Amad Diallo,Manchester United,11.67,33.33,50.0,83.33,20.0,100.0,23.33,76.67,58.33,50.74
+Dominik Szoboszlai,Liverpool,11.67,60.0,20.0,50.0,70.0,63.33,36.67,51.67,78.33,49.07
+Jean-Ricner Bellegarde,Wolverhampton Wanderers,36.67,10.0,66.67,16.67,41.67,93.33,56.67,25.0,85.0,47.96
+Elliot Anderson,Nottingham Forest,11.67,83.33,60.0,41.67,60.0,46.67,45.0,51.67,23.33,47.04
+Savinho,Manchester City,63.33,20.0,80.0,70.0,33.33,96.67,26.67,25.0,8.33,47.04
+Ollie Watkins,Aston Villa,63.33,3.33,6.67,60.0,48.33,83.33,20.0,83.33,41.67,45.55
+Jérémy Doku,Manchester City,11.67,23.33,100.0,50.0,48.33,56.67,81.67,18.33,8.33,44.26
 Cole Palmer,Chelsea,63.33,80.0,70.0,96.67,5.0,13.33,10.0,3.33,41.67,42.59
-Amad Diallo,Manchester United,11.67,33.33,50.0,83.33,20.0,26.67,23.33,76.67,58.33,42.59
-Enzo Fernández,Chelsea,36.67,93.33,10.0,6.67,25.0,91.67,30.0,36.67,23.33,39.26
+Enzo Fernández,Chelsea,36.67,93.33,10.0,6.67,25.0,88.33,30.0,36.67,23.33,38.89
 James Maddison,Tottenham Hotspur,36.67,53.33,83.33,41.67,13.33,13.33,53.33,6.67,41.67,38.15
 Jarrod Bowen,West Ham United,63.33,43.33,73.33,83.33,25.0,13.33,16.67,10.0,8.33,37.41
-Kevin De Bruyne,Manchester City,36.67,46.67,13.33,3.33,63.33,33.33,50.0,31.67,23.33,33.52
+Kevin De Bruyne,Manchester City,36.67,46.67,13.33,3.33,63.33,30.0,50.0,31.67,23.33,33.15
 Eberechi Eze,Crystal Palace,63.33,56.67,3.33,13.33,30.0,13.33,13.33,40.0,41.67,30.55
 Bukayo Saka,Arsenal,85.0,13.33,33.33,75.0,13.33,13.33,3.33,13.33,23.33,30.37
 Ismaïla Sarr,Crystal Palace,11.67,16.67,40.0,83.33,13.33,13.33,6.67,31.67,8.33,25.0
