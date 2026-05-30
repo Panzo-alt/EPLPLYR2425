@@ -1,61 +1,518 @@
 Player Name,Club,Clean Sheets,Possession Won,Clearances,Interceptions,Blocks,Tackles,Ground Duels,gDuels %,Aerial Duels,aDuels %,xGoT Conceded,Goals Conceded
 Virgil van Dijk,Liverpool,14,88,190,44,9,38,171,60%,87,56%,0,0
-Dan Burn,Newcastle United,13,92,194,11,10,39,196,47%,110,42%,0,0
 Nikola Milenkovic,Nottingham Forest,13,149,208,34,9,51,268,62%,82,62%,0,0
+Dan Burn,Newcastle United,13,92,194,11,10,39,196,47%,110,42%,0,0
 William Saliba,Arsenal,12,90,118,26,34,62,108,52%,84,56%,0,0
-Ryan Gravenberch,Liverpool,11,104,57,26,10,69,191,51%,78,62%,0,0
 Ibrahima Konaté,Liverpool,11,194,125,48,9,40,349,56%,40,63%,0,0
-Murillo,Nottingham Forest,11,53,242,7,1,53,111,73%,21,52%,0,0
-Josko Gvardiol,Manchester City,11,94,111,22,4,58,198,56%,42,52%,0,0
 Idrissa Gueye,Everton,11,42,34,4,14,133,32,50%,14,57%,0,0
+Josko Gvardiol,Manchester City,11,94,111,22,4,58,198,56%,42,52%,0,0
+Ola Aina,Nottingham Forest,11,46,106,11,7,55,80,51%,18,67%,0,0
+Murillo,Nottingham Forest,11,53,242,7,1,53,111,73%,21,52%,0,0
 Marc Guéhi,Crystal Palace,11,71,156,14,7,61,100,52%,62,53%,0,0
 Maxence Lacroix,Crystal Palace,11,146,203,38,40,68,100,68%,169,67%,0,0
-Daniel Muñoz,Crystal Palace,11,46,94,5,4,123,132,47%,49,35%,0,0
-Ola Aina,Nottingham Forest,11,46,106,11,7,55,80,51%,18,67%,0,0
+Ryan Gravenberch,Liverpool,11,104,57,26,10,69,191,51%,78,62%,0,0
 Rúben Dias,Manchester City,11,193,70,60,10,17,284,56%,40,65%,0,0
-Moisés Caicedo,Chelsea,10,127,53,23,5,114,246,46%,96,43%,0,0
-Gabriel Magalhães,Arsenal,10,78,89,5,0,25,206,37%,56,30%,0,0
-Fabian Schär,Newcastle United,10,79,133,12,6,36,286,41%,55,33%,0,0
-Sandro Tonali,Newcastle United,10,43,0,15,21,51,81,57%,67,52%,0,0
+Daniel Muñoz,Crystal Palace,11,46,94,5,4,123,132,47%,49,35%,0,0
+Levi Colwill,Chelsea,10,187,116,41,11,47,206,51%,75,55%,0,0
 James Tarkowski,Everton,10,71,209,13,5,64,71,45%,23,57%,0,0
 Vitalii Mykolenko,Everton,10,107,135,27,9,63,110,51%,32,59%,0,0
-Levi Colwill,Chelsea,10,187,116,41,11,47,206,51%,75,55%,0,0
-Bernardo Silva,Manchester City,9,40,0,4,2,56,146,38%,204,49%,0,0
-Alexis Mac Allister,Liverpool,9,109,0,11,2,95,218,49%,25,40%,0,0
-Marc Cucurella,Chelsea,9,146,80,28,23,67,156,64%,128,54%,0,0
+Gabriel Magalhães,Arsenal,10,78,89,5,0,25,206,37%,56,30%,0,0
+Fabian Schär,Newcastle United,10,79,133,12,6,36,286,41%,55,33%,0,0
+Moisés Caicedo,Chelsea,10,127,53,23,5,114,246,46%,96,43%,0,0
+Sandro Tonali,Newcastle United,10,43,0,15,21,51,81,57%,67,52%,0,0
 Milos Kerkez,Bournemouth,9,101,99,9,0,52,289,41%,23,39%,0,0
+Alexis Mac Allister,Liverpool,9,109,0,11,2,95,218,49%,25,40%,0,0
 Bruno Fernandes,Manchester United,9,188,30,29,10,84,426,53%,38,50%,0,0
-Ezri Konsa,Aston Villa,8,134,107,45,25,34,117,48%,134,44%,0,0
+Bernardo Silva,Manchester City,9,40,0,4,2,56,146,38%,204,49%,0,0
+Marc Cucurella,Chelsea,9,146,80,28,23,67,156,64%,128,54%,0,0
 Nathan Collins,Brentford,8,110,220,31,10,40,246,61%,70,57%,0,0
-Illia Zabarnyi,Bournemouth,8,113,179,9,6,52,203,47%,89,42%,0,0
-Diogo Dalot,Manchester United,8,41,64,8,0,68,116,34%,54,41%,0,0
 Mohamed Salah,Liverpool,8,138,5,4,1,21,435,45%,51,22%,0,0
-Toti Gomes,Wolverhampton Wanderers,8,132,147,31,9,61,197,50%,16,19%,0,0
-Dominik Szoboszlai,Liverpool,8,76,14,6,0,38,126,44%,20,15%,0,0
 Jarrad Branthwaite,Everton,8,129,188,16,4,36,329,41%,60,20%,0,0
+Dominik Szoboszlai,Liverpool,8,76,14,6,0,38,126,44%,20,15%,0,0
+Ezri Konsa,Aston Villa,8,134,107,45,25,34,117,48%,134,44%,0,0
+Toti Gomes,Wolverhampton Wanderers,8,132,147,31,9,61,197,50%,16,19%,0,0
 Bryan Mbeumo,Brentford,8,70,51,3,0,49,212,51%,30,33%,0,0
-Tyrick Mitchell,Crystal Palace,7,38,95,7,11,91,23,83%,51,55%,0,0
-Dean Huijsen,Bournemouth,7,156,194,25,13,36,172,48%,64,59%,0,0
-Kai Havertz,Arsenal,7,68,32,19,6,16,127,47%,30,27%,0,0
-Declan Rice,Arsenal,7,121,50,13,5,53,342,35%,26,39%,0,0
-Jurriën Timber,Arsenal,7,42,41,6,4,58,148,25%,167,40%,0,0
-Jan Paul van Hecke,Brighton & Hove Albion,7,46,139,16,13,45,47,62%,46,59%,0,0
+Diogo Dalot,Manchester United,8,41,64,8,0,68,116,34%,54,41%,0,0
+Illia Zabarnyi,Bournemouth,8,113,179,9,6,52,203,47%,89,42%,0,0
 Thomas Partey,Arsenal,7,57,44,22,6,89,99,57%,71,49%,0,0
+Matheus Nunes,Manchester City,7,38,0,2,1,35,115,41%,11,36%,0,0
+Dean Huijsen,Bournemouth,7,156,194,25,13,36,172,48%,64,59%,0,0
+Iliman Ndiaye,Everton,7,116,15,13,0,53,139,50%,25,56%,0,0
+Ashley Young,Everton,7,49,56,23,10,58,79,58%,41,56%,0,0
+Joelinton,Newcastle United,7,200,46,25,4,57,402,48%,38,29%,0,0
+Tyrick Mitchell,Crystal Palace,7,38,95,7,11,91,23,83%,51,55%,0,0
 Enzo Fernández,Chelsea,7,34,20,5,1,65,111,33%,108,53%,0,0
 Tosin Adarabioyo,Chelsea,7,116,79,25,15,17,153,63%,80,66%,0,0
-Neco Williams,Nottingham Forest,7,48,120,3,2,90,178,38%,58,38%,0,0
-Tino Livramento,Newcastle United,7,63,94,20,21,54,158,48%,176,57%,0,0
-Lewis Hall,Newcastle United,7,68,51,2,0,58,279,36%,134,43%,0,0
-Ashley Young,Everton,7,49,56,23,10,58,79,58%,41,56%,0,0
 Chris Richards,Crystal Palace,7,50,113,5,6,47,100,34%,240,39%,0,0
+Jan Paul van Hecke,Brighton & Hove Albion,7,46,139,16,13,45,47,62%,46,59%,0,0
+Neco Williams,Nottingham Forest,7,48,120,3,2,90,178,38%,58,38%,0,0
+Lewis Hall,Newcastle United,7,68,51,2,0,58,279,36%,134,43%,0,0
+Tino Livramento,Newcastle United,7,63,94,20,21,54,158,48%,176,57%,0,0
+Jurriën Timber,Arsenal,7,42,41,6,4,58,148,25%,167,40%,0,0
 Keane Lewis-Potter,Brentford,7,74,66,32,12,49,143,55%,48,54%,0,0
-Iliman Ndiaye,Everton,7,116,15,13,0,53,139,50%,25,56%,0,0
-Matheus Nunes,Manchester City,7,38,0,2,1,35,115,41%,11,36%,0,0
-Joelinton,Newcastle United,7,200,46,25,4,57,402,48%,38,29%,0,0
-Abdoulaye Doucouré,Everton,6,150,19,10,6,48,210,37%,75,40%,0,0
+Kai Havertz,Arsenal,7,68,32,19,6,16,127,47%,30,27%,0,0
+Declan Rice,Arsenal,7,121,50,13,5,53,342,35%,26,39%,0,0
 Boubacar Kamara,Aston Villa,6,140,47,27,10,50,158,54%,33,67%,0,0
-Antoine Semenyo,Bournemouth,6,157,34,62,8,55,286,53%,78,67%,0,0
+Ryan Yates,Nottingham Forest,6,157,60,29,13,42,214,52%,42,43%,0,0
+Abdoulaye Doucouré,Everton,6,150,19,10,6,48,210,37%,75,40%,0,0
 Erling Haaland,Manchester City,6,50,22,24,18,11,70,59%,107,60%,0,0
 Andy Robertson,Liverpool,6,89,42,6,1,39,194,47%,61,39%,0,0
-Ryan Yates,Nottingham Forest,6,157,60,29,13,42,214,52%,42,43%,0,0
+Antoine Semenyo,Bournemouth,6,157,34,62,8,55,286,53%,78,67%,0,0
 Maximilian Kilman,West Ham United,6,26,210,16,10,39,30,40%,46,57%,0,0
+Martin Ødegaard,Arsenal,5,114,5,24,0,19,214,55%,19,53%,0,0
+Leandro Trossard,Arsenal,5,113,14,25,8,31,167,53%,59,59%,0,0
+Dejan Kulusevski,Tottenham Hotspur,5,111,9,22,5,45,204,62%,26,50%,0,0
+Tomás Soucek,West Ham United,5,41,84,11,7,46,43,70%,70,60%,0,0
+Pedro Porro,Tottenham Hotspur,5,147,73,37,5,66,196,53%,73,63%,0,0
+Joël Veltman,Brighton & Hove Albion,5,137,62,44,19,43,173,64%,96,56%,0,0
+Matty Cash,Aston Villa,5,130,58,54,21,56,152,62%,111,55%,0,0
+Morgan Rogers,Aston Villa,5,142,18,36,42,43,151,57%,67,66%,0,0
+Amad Diallo,Manchester United,5,72,16,26,7,38,155,63%,54,61%,0,0
+Antonee Robinson,Fulham,5,69,123,19,10,95,77,44%,22,50%,0,0
+Calvin Bassey,Fulham,5,35,113,2,1,54,109,38%,39,23%,0,0
+Lewis Cook,Bournemouth,5,104,66,13,18,81,46,59%,83,63%,0,0
+Bruno Guimarães,Newcastle United,5,156,40,14,3,83,276,52%,110,32%,0,0
+Lisandro Martínez,Manchester United,5,73,54,24,8,40,150,51%,17,53%,0,0
+Trevoh Chalobah,Chelsea,5,114,104,32,10,31,205,53%,49,63%,0,0
+André,Wolverhampton Wanderers,5,194,29,37,8,91,235,60%,8,25%,0,0
+Cole Palmer,Chelsea,5,62,19,13,23,34,30,53%,35,37%,0,0
+Yoane Wissa,Brentford,5,145,19,23,16,22,290,58%,42,57%,0,0
+Sepp van den Berg,Brentford,5,47,131,8,0,39,115,42%,11,64%,0,0
+Ben White,Arsenal,5,107,38,23,6,20,231,50%,16,31%,0,0
+Aaron Wan-Bissaka,West Ham United,5,174,111,66,11,70,259,62%,56,41%,0,0
+Jake O'Brien,Everton,5,31,89,6,8,26,47,62%,24,46%,0,0
+Matt Doherty,Wolverhampton Wanderers,5,29,95,13,3,38,69,52%,14,43%,0,0
+Pau Torres,Aston Villa,5,19,74,1,2,21,111,28%,154,60%,0,0
+Jarrod Bowen,West Ham United,5,79,21,26,13,41,106,59%,54,52%,0,0
+Manuel Akanji,Manchester City,5,122,62,27,4,19,241,53%,36,50%,0,0
+Noussair Mazraoui,Manchester United,4,190,83,33,9,115,222,55%,32,41%,0,0
+Jean-Philippe Mateta,Crystal Palace,4,62,22,10,3,18,196,51%,29,35%,0,0
+James Ward-Prowse,West Ham United,4,39,19,5,4,24,108,48%,107,48%,0,0
+Youri Tielemans,Aston Villa,4,44,46,11,9,84,89,56%,14,36%,0,0
+Joachim Andersen,Fulham,4,40,193,6,6,0,127,43%,20,25%,0,0
+Kevin De Bruyne,Manchester City,4,83,8,5,4,17,226,47%,170,53%,0,0
+Luis Díaz,Liverpool,4,42,7,21,6,39,87,51%,24,54%,0,0
+Trent Alexander-Arnold,Liverpool,4,85,48,29,12,72,104,59%,76,59%,0,0
+Ollie Watkins,Aston Villa,4,37,14,6,1,10,116,46%,16,31%,0,0
+James Garner,Everton,4,88,34,46,17,47,189,59%,125,55%,0,0
+Malo Gusto,Chelsea,4,103,40,9,7,45,55,53%,66,47%,0,0
+Lucas Digne,Aston Villa,4,149,84,18,4,65,301,50%,106,45%,0,0
+Carlos Baleba,Brighton & Hove Albion,4,64,43,8,6,79,107,39%,23,48%,0,0
+Pedro Neto,Chelsea,4,152,4,36,17,23,213,53%,35,34%,0,0
+Emmanuel Agbadou,Wolverhampton Wanderers,4,156,89,13,7,30,293,49%,48,31%,0,0
+Tyler Adams,Bournemouth,4,80,37,8,5,83,267,48%,35,29%,0,0
+Ryan Christie,Bournemouth,4,65,49,17,10,54,120,59%,22,68%,0,0
+Christian Nørgaard,Brentford,4,29,64,7,2,79,81,41%,38,42%,0,0
+Marshall Munetsi,Wolverhampton Wanderers,4,97,17,6,0,24,172,39%,15,53%,0,0
+João Gomes,Wolverhampton Wanderers,4,149,32,23,7,116,263,41%,107,55%,0,0
+Mateo Kovacic,Manchester City,4,179,21,28,8,69,362,53%,24,63%,0,0
+Santiago Bueno,Wolverhampton Wanderers,4,109,70,28,7,41,212,48%,44,43%,0,0
+Nélson Semedo,Wolverhampton Wanderers,4,114,84,29,12,62,196,55%,50,54%,0,0
+Michael Keane,Everton,3,63,65,10,8,12,48,48%,39,49%,0,0
+Timothy Castagne,Fulham,3,189,75,23,11,46,209,55%,62,44%,0,0
+Nico González,Manchester City,3,0,21,0,0,16,0,0%,0,0%,0,0
+Lewis Dunk,Brighton & Hove Albion,3,119,78,18,15,17,160,56%,61,49%,0,0
+Morgan Gibbs-White,Nottingham Forest,3,119,0,6,7,43,380,42%,65,20%,0,0
+Adam Webster,Brighton & Hove Albion,3,0,40,0,0,10,0,0%,0,0%,0,0
+Nicolás Domínguez,Nottingham Forest,3,85,52,27,22,86,84,68%,141,72%,0,0
+Pervis Estupiñán,Brighton & Hove Albion,3,61,57,9,1,65,131,47%,12,25%,0,0
+Kaoru Mitoma,Brighton & Hove Albion,3,146,7,21,9,45,227,53%,62,44%,0,0
+Anthony Elanga,Nottingham Forest,3,97,20,7,2,19,271,52%,16,50%,0,0
+Callum Hudson-Odoi,Nottingham Forest,3,168,12,20,17,22,154,65%,77,57%,0,0
+Ben Davies,Tottenham Hotspur,3,57,79,13,5,17,130,40%,37,51%,0,0
+Jan Bednarek,Southampton,3,131,189,24,22,36,126,58%,134,62%,0,0
+Taylor Harwood-Bellis,Southampton,3,138,140,35,9,0,244,59%,56,50%,0,0
+Dominic Calvert-Lewin,Everton,3,38,23,1,9,9,198,36%,107,43%,0,0
+Aaron Cresswell,West Ham United,3,0,36,0,0,11,0,0%,0,0%,0,0
+Jefferson Lerma,Crystal Palace,3,107,78,28,10,35,181,52%,35,37%,0,0
+Casemiro,Manchester United,3,51,48,19,13,83,90,58%,90,54%,0,0
+Ismaïla Sarr,Crystal Palace,3,45,38,9,7,22,48,65%,33,61%,0,0
+Ilkay Gündogan,Manchester City,3,157,22,41,20,25,105,62%,121,64%,0,0
+Tyrone Mings,Aston Villa,3,99,59,42,15,7,195,57%,65,35%,0,0
+Jérémy Doku,Manchester City,3,129,2,34,26,31,80,59%,116,66%,0,0
+Adam Smith,Bournemouth,3,50,38,15,5,24,88,48%,29,48%,0,0
+Wout Faes,Leicester City,3,85,184,11,0,42,224,46%,53,34%,0,0
+Matheus Cunha,Wolverhampton Wanderers,3,70,19,15,4,38,150,49%,35,43%,0,0
+Lucas Paquetá,West Ham United,3,105,34,7,0,66,292,42%,52,27%,0,0
+Rico Lewis,Manchester City,3,121,40,40,8,30,140,42%,68,53%,0,0
+Omar Marmoush,Manchester City,3,110,3,11,2,13,315,41%,33,21%,0,0
+Sander Berge,Fulham,3,177,37,34,11,50,219,55%,25,48%,0,0
+Gabriel Martinelli,Arsenal,3,66,16,10,3,23,237,47%,72,35%,0,0
+Flynn Downes,Southampton,3,63,50,16,29,49,71,65%,93,59%,0,0
+Morato,Nottingham Forest,3,0,75,0,0,22,0,0%,0,0%,0,0
+Jakub Kiwior,Arsenal,3,65,57,9,3,22,53,51%,20,65%,0,0
+Myles Lewis-Skelly,Arsenal,3,162,24,34,57,22,129,58%,189,63%,0,0
+Mikel Merino,Arsenal,3,179,23,27,3,46,310,52%,40,30%,0,0
+Alexander Isak,Newcastle United,3,148,17,22,6,12,303,50%,54,35%,0,0
+Dwight McNeil,Everton,3,146,2,11,0,13,296,53%,44,16%,0,0
+Orel Mangala,Everton,3,115,21,30,10,16,179,53%,79,43%,0,0
+Matthijs de Ligt,Manchester United,3,81,91,23,8,30,159,60%,40,50%,0,0
+Savinho,Manchester City,3,97,9,21,37,23,90,53%,172,55%,0,0
+Alejandro Garnacho,Manchester United,3,108,10,13,0,30,238,42%,27,11%,0,0
+Harvey Barnes,Newcastle United,3,67,11,15,0,16,110,46%,16,63%,0,0
+Jadon Sancho,Chelsea,3,52,7,4,3,13,64,53%,73,58%,0,0
+Conor Coady,Leicester City,2,35,71,9,11,13,32,66%,32,66%,0,0
+James Justin,Leicester City,2,76,115,12,4,58,238,54%,13,39%,0,0
+Luke Thomas,Leicester City,2,38,45,19,13,31,19,58%,30,50%,0,0
+Wilfred Ndidi,Leicester City,2,121,74,22,14,85,237,43%,37,51%,0,0
+Amadou Onana,Aston Villa,2,100,40,8,2,55,151,40%,37,38%,0,0
+Marco Asensio,Aston Villa,2,0,3,0,0,7,0,0%,0,0%,0,0
+Dango Ouattara,Bournemouth,2,171,48,44,6,35,310,53%,137,42%,0,0
+Alex Iwobi,Fulham,2,140,28,14,1,44,222,50%,38,18%,0,0
+Harry Maguire,Manchester United,2,55,77,7,1,30,84,61%,25,20%,0,0
+Eberechi Eze,Crystal Palace,2,26,8,3,0,39,119,46%,59,36%,0,0
+Anthony Gordon,Newcastle United,2,158,5,11,9,32,392,41%,144,47%,0,0
+Patrick Dorgu,Manchester United,2,0,19,0,0,31,0,0%,0,0%,0,0
+Jacob Murphy,Newcastle United,2,83,29,8,4,0,141,59%,20,35%,0,0
+Abdukodir Khusanov,Manchester City,2,0,28,0,0,5,0,0%,0,0%,0,0
+Jacob Greaves,Ipswich Town,2,98,144,13,0,40,181,43%,21,24%,0,0
+Konstantinos Mavropanos,West Ham United,2,42,123,12,4,35,83,46%,51,55%,0,0
+Kostas Tsimikas,Liverpool,2,0,17,0,0,31,0,0%,0,0%,0,0
+Dara O'Shea,Ipswich Town,2,41,218,4,0,49,113,38%,54,37%,0,0
+Jack Harrison,Everton,2,63,31,16,3,32,82,46%,36,56%,0,0
+Marcus Rashford,Aston Villa,2,119,9,5,3,17,227,44%,59,44%,0,0
+Evanilson,Bournemouth,2,97,21,24,8,16,119,75%,55,56%,0,0
+Mads Roerslev,Brentford,2,119,31,24,8,18,140,49%,24,38%,0,0
+Mats Wieffer,Brighton & Hove Albion,2,106,25,22,14,58,96,63%,78,72%,0,0
+João Pedro,Brighton & Hove Albion,2,100,12,14,2,16,224,55%,29,59%,0,0
+Cristian Romero,Tottenham Hotspur,2,97,52,7,9,35,146,52%,28,50%,0,0
+Mikkel Damsgaard,Brentford,2,169,0,45,10,83,207,60%,77,36%,0,0
+Archie Gray,Tottenham Hotspur,2,75,47,25,4,16,147,59%,22,50%,0,0
+Yehor Yarmoliuk,Brentford,2,81,31,8,8,49,197,45%,66,46%,0,0
+Kevin Schade,Brentford,2,68,0,12,3,39,94,56%,38,58%,0,0
+Danny Welbeck,Brighton & Hove Albion,2,110,14,33,47,26,110,66%,203,58%,0,0
+Jack Hinshelwood,Brighton & Hove Albion,2,44,37,13,12,27,71,54%,16,38%,0,0
+Kyle Walker-Peters,Southampton,2,104,75,9,0,44,251,46%,30,20%,0,0
+Elliot Anderson,Nottingham Forest,2,84,68,21,8,92,153,54%,38,47%,0,0
+Reece James,Chelsea,2,35,21,9,6,10,76,55%,37,60%,0,0
+Sean Longstaff,Newcastle United,2,0,8,0,0,27,0,0%,0,0%,0,0
+Kieran Trippier,Newcastle United,2,88,42,19,2,38,192,47%,50,38%,0,0
+Ethan Pinnock,Brentford,2,67,139,1,2,35,146,52%,105,40%,0,0
+Son Heung-Min,Tottenham Hotspur,2,83,16,11,2,17,214,41%,24,38%,0,0
+Rodrigo Bentancur,Tottenham Hotspur,2,14,37,5,2,40,91,52%,130,52%,0,0
+Radu Dragusin,Tottenham Hotspur,2,35,46,2,0,10,115,35%,126,25%,0,0
+Mohammed Kudus,West Ham United,2,229,8,49,10,38,345,58%,56,64%,0,0
+John McGinn,Aston Villa,2,59,14,9,0,33,204,44%,89,47%,0,0
+Bukayo Saka,Arsenal,2,44,6,15,14,29,58,59%,45,51%,0,0
+Axel Disasi,Aston Villa,2,0,28,0,0,15,0,0%,0,0%,0,0
+Ian Maatsen,Aston Villa,2,98,27,17,14,29,101,61%,106,71%,0,0
+Djed Spence,Tottenham Hotspur,2,35,56,7,2,47,113,36%,170,51%,0,0
+Daichi Kamada,Crystal Palace,2,103,14,27,24,47,104,50%,224,66%,0,0
+Will Hughes,Crystal Palace,2,154,26,21,15,66,137,66%,100,62%,0,0
+Joshua Zirkzee,Manchester United,2,58,8,1,1,14,175,46%,36,39%,0,0
+Kobbie Mainoo,Manchester United,2,77,12,40,18,46,89,65%,85,69%,0,0
+Nico O'Reilly,Manchester City,2,0,10,0,0,9,0,0%,0,0%,0,0
+Kenny Tete,Fulham,2,64,62,7,0,56,127,38%,21,24%,0,0
+Leif Davis,Ipswich Town,2,46,71,18,3,46,54,61%,32,50%,0,0
+Dominic Solanke,Tottenham Hotspur,2,133,23,9,5,18,194,43%,42,45%,0,0
+Victor Lindelöf,Manchester United,2,0,36,0,0,7,0,0%,0,0%,0,0
+Noni Madueke,Chelsea,2,139,10,23,10,25,247,50%,70,40%,0,0
+Lucas Bergvall,Tottenham Hotspur,1,104,21,25,4,39,155,57%,67,58%,0,0
+Mathys Tel,Tottenham Hotspur,1,68,8,17,2,16,127,58%,59,58%,0,0
+Micky van de Ven,Tottenham Hotspur,1,86,38,15,5,10,169,46%,117,51%,0,0
+Pape Sarr,Tottenham Hotspur,1,62,24,10,11,49,64,66%,48,40%,0,0
+Tariq Lamptey,Brighton & Hove Albion,1,0,21,0,0,17,0,0%,0,0%,0,0
+Chris Wood,Nottingham Forest,1,62,28,7,5,6,55,40%,8,25%,0,0
+Álex Moreno,Nottingham Forest,1,55,38,3,2,25,202,33%,83,33%,0,0
+Sven Botman,Newcastle United,1,0,25,0,0,12,0,0%,0,0%,0,0
+Yasin Ayari,Brighton & Hove Albion,1,113,25,13,9,59,152,49%,18,44%,0,0
+Yankuba Minteh,Brighton & Hove Albion,1,118,28,20,6,48,206,50%,37,43%,0,0
+Michael Kayode,Brentford,1,0,17,0,0,17,0,0%,0,0%,0,0
+Jack Stephens,Southampton,1,61,49,21,26,34,94,67%,126,68%,0,0
+Ferdi Kadioglu,Brighton & Hove Albion,1,0,17,0,0,10,0,0%,0,0%,0,0
+Igor Julio,Brighton & Hove Albion,1,172,38,20,2,5,328,52%,27,30%,0,0
+James Bree,Southampton,1,73,27,23,4,19,126,55%,24,46%,0,0
+Nathan Wood,Nottingham Forest,1,0,38,0,0,14,0,0%,0,0%,0,0
+Mateus Fernandes,Southampton,1,125,0,17,1,89,352,48%,42,31%,0,0
+Kristoffer Ajer,Brentford,1,46,47,3,4,26,47,53%,16,56%,0,0
+Brennan Johnson,Tottenham Hotspur,1,213,10,26,6,39,307,49%,52,44%,0,0
+Mathias Jensen,Brentford,1,0,13,0,0,14,0,0%,0,0%,0,0
+Vitaly Janelt,Brentford,1,39,48,8,11,38,91,47%,40,58%,0,0
+Jørgen Strand Larsen,Wolverhampton Wanderers,1,78,29,14,0,10,222,41%,36,22%,0,0
+Jorginho,Arsenal,1,0,2,0,0,12,0,0%,0,0%,0,0
+Gabriel Jesus,Arsenal,1,0,7,0,0,10,0,0%,0,0%,0,0
+Diego Carlos,Aston Villa,1,0,35,0,0,8,0,0%,0,0%,0,0
+Ollie Scarles,West Ham United,1,0,20,0,0,21,0,0%,0,0%,0,0
+Craig Dawson,Wolverhampton Wanderers,1,90,51,21,3,15,77,61%,69,61%,0,0
+Mario Lemina,Wolverhampton Wanderers,1,35,49,6,1,51,82,45%,53,55%,0,0
+Oleksandr Zinchenko,Arsenal,1,0,9,0,0,6,0,0%,0,0%,0,0
+Jonny Evans,Manchester United,1,0,15,0,0,8,0,0%,0,0%,0,0
+Renato Veiga,Chelsea,1,0,2,0,0,9,0,0%,0,0%,0,0
+Wesley Fofana,Chelsea,1,127,52,31,17,13,235,49%,121,50%,0,0
+Jesper Lindstrøm,Everton,1,112,14,20,11,45,174,55%,50,52%,0,0
+Andreas Pereira,Fulham,1,105,16,21,4,24,107,51%,21,33%,0,0
+Beto,Everton,1,92,24,6,4,14,203,48%,43,44%,0,0
+Adam Armstrong,Everton,1,23,8,3,1,12,72,32%,14,36%,0,0
+Yves Bissouma,Tottenham Hotspur,1,50,35,15,5,49,89,44%,14,21%,0,0
+Marcos Senesi,Bournemouth,1,38,58,5,0,39,108,42%,21,29%,0,0
+Justin Kluivert,Bournemouth,1,41,23,6,4,23,138,33%,145,45%,0,0
+Christian Eriksen,Manchester United,1,193,8,49,20,19,211,53%,84,62%,0,0
+Manuel Ugarte,Manchester United,1,130,15,28,16,77,190,57%,89,36%,0,0
+Leny Yoro,Manchester United,1,59,43,3,0,0,116,41%,15,40%,0,0
+John Stones,Manchester City,1,0,18,0,0,6,0,0%,0,0%,0,0
+Issa Diop,Fulham,1,75,70,7,0,26,150,53%,25,28%,0,0
+Phil Foden,Manchester City,1,48,7,15,16,13,32,59%,57,60%,0,0
+Bilal El Khannouss,Leicester City,1,87,9,19,6,50,176,53%,47,45%,0,0
+Axel Tuanzebe,Ipswich Town,1,41,54,12,18,31,48,50%,98,54%,0,0
+Jack Grealish,Manchester City,1,0,5,0,0,9,0,0%,0,0%,0,0
+Jaden Philogene,Ipswich Town,1,0,8,0,0,25,0,0%,0,0%,0,0
+Kalvin Phillips,Ipswich Town,1,63,35,6,4,35,179,40%,40,33%,0,0
+Luke Woolfenden,Ipswich Town,1,39,76,4,5,9,72,49%,24,42%,0,0
+Sam Morsy,Ipswich Town,1,42,44,6,2,68,78,36%,17,35%,0,0
+Joe Gomez,Liverpool,1,0,19,0,0,13,0,0%,0,0%,0,0
+Curtis Jones,Liverpool,1,89,8,18,5,39,158,48%,17,24%,0,0
+Cody Gakpo,Liverpool,1,106,16,11,1,0,258,56%,9,22%,0,0
+Jean-Clair Todibo,West Ham United,1,68,82,2,4,47,172,38%,171,37%,0,0
+Ross Barkley,Aston Villa,1,0,5,0,0,14,0,0%,0,0%,0,0
+Guido Rodríguez,West Ham United,1,68,0,40,12,36,70,61%,90,71%,0,0
+Diogo Jota,Liverpool,1,109,6,21,8,14,198,55%,35,60%,0,0
+Oliver Skipp,Leicester City,1,43,10,8,3,21,164,32%,126,41%,0,0
+Victor Kristiansen,Leicester City,1,115,66,56,16,87,87,62%,165,72%,0,0
+Ethan Nwaneri,Arsenal,1,0,4,0,0,11,0,0%,0,0%,0,0
+Caleb Okoli,Leicester City,1,92,76,13,0,25,142,59%,13,23%,0,0
+Boubakary Soumaré,Leicester City,1,63,33,4,3,37,165,51%,27,26%,0,0
+Kieran Tierney,Arsenal,0,0,9,0,0,7,0,0%,0,0%,0,0
+Nathan Butler-Oyedeji,Arsenal,0,0,0,0,0,0,0,0%,0,0%,0,0
+Raheem Sterling,Arsenal,0,0,3,0,0,9,0,0%,0,0%,0,0
+Riccardo Calafiori,Arsenal,0,95,24,13,7,0,123,59%,20,30%,0,0
+Mateus Mané,Wolverhampton Wanderers,0,0,0,0,0,0,0,0%,0,0%,0,0
+Nasser Djiga,Wolverhampton Wanderers,0,0,4,0,0,0,0,0%,0,0%,0,0
+Pablo Sarabia,Wolverhampton Wanderers,0,0,7,0,0,16,0,0%,0,0%,0,0
+Pedro Lima,Wolverhampton Wanderers,0,0,4,0,0,1,0,0%,0,0%,0,0
+Rayan Aït-Nouri,Wolverhampton Wanderers,0,66,66,13,5,89,56,48%,33,73%,0,0
+Rodrigo Gomes,Wolverhampton Wanderers,0,0,16,0,0,23,0,0%,0,0%,0,0
+Tommy Doyle,Wolverhampton Wanderers,0,0,11,0,0,11,0,0%,0,0%,0,0
+Facundo Buonanotte,Leicester City,0,83,12,32,9,53,190,51%,34,50%,0,0
+Hamza Choudhury,Leicester City,0,0,2,0,0,1,0,0%,0,0%,0,0
+Harry Winks,Leicester City,0,55,18,6,2,24,140,44%,22,32%,0,0
+Jake Evans,Leicester City,0,0,0,0,0,1,0,0%,0,0%,0,0
+Jamie Vardy,Leicester City,0,106,24,56,34,19,99,52%,109,66%,0,0
+Jannik Vestergaard,Leicester City,0,93,74,27,23,22,81,69%,105,59%,0,0
+Jeremy Monga,Leicester City,0,0,1,0,0,2,0,0%,0,0%,0,0
+Kasey McAteer,Leicester City,0,0,13,0,0,23,0,0%,0,0%,0,0
+Michael Golding,Leicester City,0,0,0,0,0,0,0,0%,0,0%,0,0
+Odsonne Édouard,Leicester City,0,0,2,0,0,2,0,0%,0,0%,0,0
+Olabade Aluko,Leicester City,0,0,0,0,0,1,0,0%,0,0%,0,0
+Patson Daka,Leicester City,0,0,11,0,0,19,0,0%,0,0%,0,0
+Ricardo Pereira,Leicester City,0,0,11,0,0,13,0,0%,0,0%,0,0
+Stephy Mavididi,Leicester City,0,123,13,30,40,34,100,45%,113,56%,0,0
+Will Alves,Leicester City,0,0,0,0,0,0,0,0%,0,0%,0,0
+Woyo Coulibaly,Leicester City,0,0,1,0,0,6,0,0%,0,0%,0,0
+Conor Bradley,Liverpool,0,0,25,0,0,14,0,0%,0,0%,0,0
+Darwin Núñez,Liverpool,0,50,11,5,2,21,102,42%,17,41%,0,0
+Jens Cajuste,Ipswich Town,0,70,33,12,3,44,169,37%,18,33%,0,0
+Julio Enciso,Ipswich Town,0,63,7,4,1,12,304,56%,13,0%,0,0
+Liam Delap,Ipswich Town,0,81,28,32,8,11,94,56%,29,55%,0,0
+Marcus Harness,Ipswich Town,0,0,1,0,0,1,0,0%,0,0%,0,0
+Massimo Luongo,Ipswich Town,0,0,2,0,0,9,0,0%,0,0%,0,0
+Nathan Broadhead,Ipswich Town,0,0,5,0,0,9,0,0%,0,0%,0,0
+Omari Hutchinson,Ipswich Town,0,49,7,21,2,32,95,50%,14,43%,0,0
+Sam Szmodics,Ipswich Town,0,126,12,21,8,16,135,53%,50,56%,0,0
+Abdul Fatawu,Leicester City,0,0,12,0,0,21,0,0%,0,0%,0,0
+Bobby De Cordova-Reid,Leicester City,0,0,10,0,0,9,0,0%,0,0%,0,0
+Federico Chiesa,Liverpool,0,0,1,0,0,1,0,0%,0,0%,0,0
+Harvey Elliott,Liverpool,0,0,3,0,0,5,0,0%,0,0%,0,0
+Jarell Quansah,Liverpool,0,0,27,0,0,12,0,0%,0,0%,0,0
+Jayden Danns,Liverpool,0,0,0,0,0,0,0,0%,0,0%,0,0
+Wataru Endo,Liverpool,0,0,8,0,0,12,0,0%,0,0%,0,0
+Willian,Fulham,0,0,1,0,0,4,0,0%,0,0%,0,0
+Alex Palmer,Ipswich Town,0,0,21,0,0,0,0,0%,0,0%,26,30
+Ali Al-Hamadi,Ipswich Town,0,0,2,0,0,1,0,0%,0,0%,0,0
+Ben Godfrey,Ipswich Town,0,0,3,0,0,1,0,0%,0,0%,0,0
+Ben Johnson,Ipswich Town,0,37,53,16,8,38,67,37%,27,67%,0,0
+Cameron Burgess,Ipswich Town,0,197,125,46,11,17,293,55%,66,59%,0,0
+Conor Chaplin,Ipswich Town,0,0,3,0,0,15,0,0%,0,0%,0,0
+Conor Townsend,Ipswich Town,0,0,14,0,0,11,0,0%,0,0%,0,0
+George Edmundson,Ipswich Town,0,0,0,0,0,0,0,0%,0,0%,0,0
+George Hirst,Ipswich Town,0,0,10,0,0,3,0,0%,0,0%,0,0
+Harry Clarke,Ipswich Town,0,0,12,0,0,5,0,0%,0,0%,0,0
+Jack Clarke,Ipswich Town,0,73,23,10,2,32,212,40%,32,13%,0,0
+Jack Taylor,Ipswich Town,0,0,21,0,0,20,0,0%,0,0%,0,0
+Claudio Echeverri,Manchester City,0,0,0,0,0,1,0,0%,0,0%,0,0
+Divin Mubama,Manchester City,0,0,0,0,0,0,0,0%,0,0%,0,0
+Jahmai Simpson-Pusey,Manchester City,0,0,2,0,0,1,0,0%,0,0%,0,0
+James McAtee,Manchester City,0,0,1,0,0,5,0,0%,0,0%,0,0
+Kyle Walker,Manchester City,0,135,11,19,14,17,259,52%,32,34%,0,0
+Nathan Aké,Manchester City,0,0,22,0,0,9,0,0%,0,0%,0,0
+Harrison Reed,Fulham,0,0,2,0,0,6,0,0%,0,0%,0,0
+Harry Wilson,Fulham,0,106,9,9,7,20,82,49%,14,57%,0,0
+Jay Stansfield,Fulham,0,0,0,0,0,0,0,0%,0,0%,0,0
+Jorge Cuenca,Fulham,0,0,26,0,0,6,0,0%,0,0%,0,0
+Martial Godo,Fulham,0,0,0,0,0,0,0,0%,0,0%,0,0
+Raúl Jiménez,Fulham,0,80,23,10,5,35,218,44%,193,48%,0,0
+Reiss Nelson,Fulham,0,0,2,0,0,9,0,0%,0,0%,0,0
+Rodrigo Muniz,Fulham,0,182,14,30,11,10,231,46%,51,43%,0,0
+Ryan Sessegnon,Fulham,0,0,13,0,0,27,0,0%,0,0%,0,0
+Sasa Lukic,Fulham,0,79,32,6,2,68,206,50%,3,33%,0,0
+Tom Cairney,Fulham,0,0,3,0,0,13,0,0%,0,0%,0,0
+Oscar Bobb,Manchester City,0,0,0,0,0,0,0,0%,0,0%,0,0
+Rodri,Manchester City,0,0,1,0,0,2,0,0%,0,0%,0,0
+Vitor Reis,Manchester City,0,0,1,0,0,0,0,0%,0,0%,0,0
+Wes Burns,Manchester City,0,54,12,14,9,13,76,49%,40,68%,0,0
+Antony,Manchester United,0,0,0,0,0,6,0,0%,0,0%,0,0
+Ayden Heaven,Manchester United,0,0,8,0,0,4,0,0%,0,0%,0,0
+Nathan Patterson,Everton,0,0,5,0,0,11,0,0%,0,0%,0,0
+Roman Dixon,Everton,0,0,2,0,0,5,0,0%,0,0%,0,0
+Séamus Coleman,Everton,0,0,7,0,0,3,0,0%,0,0%,0,0
+Tim Iroegbunam,Everton,0,0,11,0,0,29,0,0%,0,0%,0,0
+Youssef Chermiti,Everton,0,0,0,0,0,0,0,0%,0,0%,0,0
+Adama Traoré,Fulham,0,87,4,1,0,20,192,52%,52,48%,0,0
+Carlos Vinícius,Fulham,0,0,0,0,0,0,0,0%,0,0%,0,0
+Emile Smith Rowe,Fulham,0,83,16,12,13,31,64,69%,46,57%,0,0
+Armando Broja,Everton,0,0,4,0,0,3,0,0%,0,0%,0,0
+Carlos Alcaraz,Everton,0,0,10,0,0,11,0,0%,0,0%,0,0
+Harrison Armstrong,Everton,0,0,1,0,0,0,0,0%,0,0%,0,0
+Chido Obi,Manchester United,0,0,1,0,0,2,0,0%,0,0%,0,0
+Harry Amass,Manchester United,0,0,9,0,0,6,0,0%,0,0%,0,0
+Luke Shaw,Manchester United,0,0,7,0,0,4,0,0%,0,0%,0,0
+Mason Mount,Manchester United,0,0,4,0,0,15,0,0%,0,0%,0,0
+Eddie Nketiah,Crystal Palace,0,88,10,18,8,15,169,49%,54,56%,0,0
+Jeffrey Schlupp,Crystal Palace,0,0,1,0,0,2,0,0%,0,0%,0,0
+Joel Ward,Crystal Palace,0,0,3,0,0,2,0,0%,0,0%,0,0
+Jordan Ayew,Crystal Palace,0,68,18,19,7,0,144,63%,41,54%,0,0
+Justin Devenny,Crystal Palace,0,0,11,0,0,17,0,0%,0,0%,0,0
+Matheus França,Crystal Palace,0,0,1,0,0,2,0,0%,0,0%,0,0
+Nathaniel Clyne,Crystal Palace,0,0,13,0,0,12,0,0%,0,0%,0,0
+Romain Esse,Crystal Palace,0,0,1,0,0,9,0,0%,0,0%,0,0
+Rasmus Højlund,Manchester United,0,145,6,26,6,3,356,56%,52,42%,0,0
+Scott McTominay,Manchester United,0,0,1,0,0,0,0,0%,0,0%,0,0
+Toby Collyer,Manchester United,0,0,3,0,0,12,0,0%,0,0%,0,0
+Tyler Fredricson,Manchester United,0,0,11,0,0,5,0,0%,0,0%,0,0
+Tyrell Malacia,Manchester United,0,0,1,0,0,2,0,0%,0,0%,0,0
+Callum Wilson,Newcastle United,0,0,1,0,0,2,0,0%,0,0%,0,0
+Emil Krafth,Newcastle United,0,0,16,0,0,4,0,0%,0,0%,0,0
+Roméo Lavia,Chelsea,0,0,10,0,0,22,0,0%,0,0%,0,0
+Shumaira Mheuka,Chelsea,0,0,0,0,0,0,0,0%,0,0%,0,0
+Tyrique George,Chelsea,0,0,1,0,0,2,0,0%,0,0%,0,0
+Adam Wharton,Crystal Palace,0,102,27,20,2,34,116,49%,23,30%,0,0
+Asher Agbinone,Crystal Palace,0,0,0,0,0,2,0,0%,0,0%,0,0
+Ben Chilwell,Crystal Palace,0,0,11,0,0,7,0,0%,0,0%,0,0
+Caleb Kporha,Crystal Palace,0,0,1,0,0,2,0,0%,0,0%,0,0
+Chadi Riad,Crystal Palace,0,0,0,0,0,5,0,0%,0,0%,0,0
+Cheick Doucouré,Crystal Palace,0,0,10,0,0,16,0,0%,0,0%,0,0
+João Félix,Chelsea,0,0,2,0,0,8,0,0%,0,0%,0,0
+Josh Acheampong,Chelsea,0,0,1,0,0,2,0,0%,0,0%,0,0
+Kiernan Dewsbury-Hall,Chelsea,0,0,7,0,0,8,0,0%,0,0%,0,0
+Marc Guiu,Chelsea,0,0,0,0,0,1,0,0%,0,0%,0,0
+Mathis Amougou,Chelsea,0,0,0,0,0,0,0,0%,0,0%,0,0
+Mykhailo Mudryk,Chelsea,0,0,1,0,0,2,0,0%,0,0%,0,0
+Nicolas Jackson,Chelsea,0,84,15,10,0,22,208,46%,30,37%,0,0
+Joe Willock,Newcastle United,0,57,5,6,4,30,104,35%,77,30%,0,0
+Lewis Miley,Newcastle United,0,0,5,0,0,14,0,0%,0,0%,0,0
+Matt Targett,Newcastle United,0,0,0,0,0,0,0,0%,0,0%,0,0
+Miguel Almirón,Newcastle United,0,0,0,0,0,3,0,0%,0,0%,0,0
+William Osula,Newcastle United,0,0,1,0,0,2,0,0%,0,0%,0,0
+Jeremy Sarmiento,Brighton & Hove Albion,0,0,0,0,0,0,0,0%,0,0%,0,0
+Matt O'Riley,Brighton & Hove Albion,0,68,9,33,20,16,72,61%,88,66%,0,0
+Simon Adingra,Brighton & Hove Albion,0,85,6,5,0,23,175,42%,18,33%,0,0
+Solly March,Brighton & Hove Albion,0,0,1,0,0,6,0,0%,0,0%,0,0
+Benoît Badiashile,Chelsea,0,0,12,0,0,9,0,0%,0,0%,0,0
+Christopher Nkunku,Chelsea,0,77,9,12,3,12,167,54%,43,40%,0,0
+Danilo,Nottingham Forest,0,0,2,0,0,8,0,0%,0,0%,0,0
+Eric da Silva Moreira,Nottingham Forest,0,0,0,0,0,2,0,0%,0,0%,0,0
+Harry Toffolo,Nottingham Forest,0,0,10,0,0,5,0,0%,0,0%,0,0
+Ibrahim Sangaré,Nottingham Forest,0,0,13,0,0,0,0,0%,0,0%,0,0
+Jota Silva,Nottingham Forest,0,0,16,0,0,0,0,0%,0,0%,0,0
+Ramón Sosa,Nottingham Forest,0,0,4,0,0,5,0,0%,0,0%,0,0
+Yunus Konak,Brentford,0,0,0,0,0,4,0,0%,0,0%,0,0
+Jakub Moder,Brighton,0,0,3,0,0,1,0,0%,0,0%,0,0
+James Milner,Brighton,0,0,2,0,0,5,0,0%,0,0%,0,0
+Billy Gilmour,Brighton & Hove Albion,0,0,1,0,0,3,0,0%,0,0%,0,0
+Brajan Gruda,Brighton & Hove Albion,0,0,5,0,0,16,0,0%,0,0%,0,0
+Diego Gómez,Brighton & Hove Albion,0,0,10,0,0,21,0,0%,0,0%,0,0
+Eiran Cashin,Brighton & Hove Albion,0,0,2,0,0,0,0,0%,0,0%,0,0
+Georginio Rutter,Brighton & Hove Albion,0,36,12,5,0,39,100,41%,19,32%,0,0
+Harry Howell,Brighton & Hove Albion,0,0,0,0,0,1,0,0%,0,0%,0,0
+Taiwo Awoniyi,Nottingham Forest,0,0,7,0,0,6,0,0%,0,0%,0,0
+Willy-Arnaud Boly,Nottingham Forest,0,0,12,0,0,6,0,0%,0,0%,0,0
+Adam Lallana,Southampton,0,0,5,0,0,8,0,0%,0,0%,0,0
+Albert Grønbæk,Southampton,0,0,1,0,0,4,0,0%,0,0%,0,0
+Armel Bella-Kotchap,Southampton,0,0,21,0,0,7,0,0%,0,0%,0,0
+Ben Brereton,Southampton,0,0,4,0,0,3,0,0%,0,0%,0,0
+Cameron Archer,Southampton,0,44,9,14,14,13,29,72%,66,67%,0,0
+Charlie Taylor,Southampton,0,0,0,0,0,7,0,0%,0,0%,0,0
+Chiedozie Ogbene,Southampton,0,0,3,0,0,7,0,0%,0,0%,0,0
+Jay Robinson,Southampton,0,0,1,0,0,4,0,0%,0,0%,0,0
+Joachim Kayi-Sanda,Southampton,0,0,0,0,0,0,0,0%,0,0%,0,0
+Joe Aribo,Southampton,0,94,28,12,2,47,230,48%,122,33%,0,0
+Kamaldeen Sulemana,Southampton,0,99,7,14,3,22,284,42%,54,50%,0,0
+Lesley Ugochukwu,Southampton,0,121,23,33,24,50,137,53%,139,60%,0,0
+Mason Holgate,Southampton,0,0,0,0,0,0,0,0%,0,0%,0,0
+Paul Onuachu,Southampton,0,81,16,9,2,7,197,45%,43,28%,0,0
+Ronnie Edwards,Southampton,0,0,0,0,0,0,0,0%,0,0%,0,0
+Ross Stewart,Southampton,0,0,6,0,0,6,0,0%,0,0%,0,0
+Ryan Fraser,Southampton,0,0,8,0,0,6,0,0%,0,0%,0,0
+Ryan Manning,Southampton,0,78,40,20,20,0,47,57%,71,52%,0,0
+Sam Amo-Ameyaw,Southampton,0,0,0,0,0,1,0,0%,0,0%,0,0
+Samuel Edozie,Southampton,0,0,0,0,0,3,0,0%,0,0%,0,0
+Tyler Dibling,Southampton,0,168,16,19,12,34,222,60%,41,49%,0,0
+Welington,Southampton,0,0,33,0,0,21,0,0%,0,0%,0,0
+Will Smallbone,Southampton,0,0,14,0,0,20,0,0%,0,0%,0,0
+Kim Ji-Soo,Brentford,0,0,2,0,0,0,0,0%,0,0%,0,0
+Paris Maghoma,Brentford,0,0,1,0,0,2,0,0%,0,0%,0,0
+Rico Henry,Brentford,0,0,2,0,0,2,0,0%,0,0%,0,0
+Ryan Trevitt,Brentford,0,0,0,0,0,1,0,0%,0,0%,0,0
+Yukinari Sugawara,Southampton,0,85,46,18,6,31,146,51%,14,50%,0,0
+Alfie Dorrington,Tottenham Hotspur,0,0,0,0,0,0,0,0%,0,0%,0,0
+Dane Scarlett,Tottenham Hotspur,0,0,1,0,0,1,0,0%,0,0%,0,0
+Destiny Udogie,Tottenham Hotspur,0,167,28,37,8,75,205,51%,59,64%,0,0
+James Maddison,Tottenham Hotspur,0,98,17,41,41,31,153,63%,138,75%,0,0
+Kevin Danso,Tottenham Hotspur,0,0,70,0,0,7,0,0%,0,0%,0,0
+Max Aarons,Bournemouth,0,0,0,0,0,2,0,0%,0,0%,0,0
+Philip Billing,Bournemouth,0,0,2,0,0,14,0,0%,0,0%,0,0
+Remy Rees-Dottin,Bournemouth,0,0,0,0,0,0,0,0%,0,0%,0,0
+Zain Silcott-Duberry,Bournemouth,0,0,0,0,0,1,0,0%,0,0%,0,0
+Ben Mee,Brentford,0,0,7,0,0,2,0,0%,0,0%,0,0
+Fábio Carvalho,Brentford,0,0,2,0,0,13,0,0%,0,0%,0,0
+Frank Onyeka,Brentford,0,0,0,0,0,0,0,0%,0,0%,0,0
+Gustavo Nunes,Brentford,0,0,2,0,0,3,0,0%,0,0%,0,0
+Igor Thiago,Brentford,0,0,3,0,0,5,0,0%,0,0%,0,0
+Jayden Meghoma,Brentford,0,0,0,0,0,0,0,0%,0,0%,0,0
+Mikey Moore,Tottenham Hotspur,0,0,5,0,0,2,0,0%,0,0%,0,0
+Richarlison,Tottenham Hotspur,0,0,8,0,0,5,0,0%,0,0%,0,0
+Sergio Reguilón,Tottenham Hotspur,0,0,6,0,0,4,0,0%,0,0%,0,0
+Timo Werner,Tottenham Hotspur,0,0,6,0,0,6,0,0%,0,0%,0,0
+Will Lankshear,Tottenham Hotspur,0,0,0,0,0,0,0,0%,0,0%,0,0
+Wilson Odobert,Tottenham Hotspur,0,0,5,0,0,14,0,0%,0,0%,0,0
+Andy Irving,West Ham United,0,0,5,0,0,7,0,0%,0,0%,0,0
+Carlos Soler,West Ham United,0,103,19,14,10,16,164,62%,58,67%,0,0
+Daniel Jebbison,Bournemouth,0,0,1,0,0,5,0,0%,0,0%,0,0
+David Brooks,Bournemouth,0,105,9,51,28,14,94,51%,112,61%,0,0
+Enes Ünal,Bournemouth,0,0,6,0,0,1,0,0%,0,0%,0,0
+James Hill,Bournemouth,0,0,31,0,0,15,0,0%,0,0%,0,0
+Julián Araujo,Bournemouth,0,0,16,0,0,10,0,0%,0,0%,0,0
+Julio Soler,Bournemouth,0,0,0,0,0,1,0,0%,0,0%,0,0
+Lloyd Kelly,Bournemouth,0,0,15,0,0,5,0,0%,0,0%,0,0
+Luis Sinisterra,Bournemouth,0,0,7,0,0,7,0,0%,0,0%,0,0
+Marcus Tavernier,Bournemouth,0,73,9,27,7,44,110,63%,41,61%,0,0
+Lamare Bogarde,Aston Villa,0,0,12,0,0,14,0,0%,0,0%,0,0
+Leon Bailey,Aston Villa,0,67,8,14,10,7,153,55%,39,54%,0,0
+Alex Scott,Bournemouth,0,0,11,0,0,27,0,0%,0,0%,0,0
+Ben Winterburn,Bournemouth,0,0,0,0,0,0,0,0%,0,0%,0,0
+Crysencio Summerville,West Ham United,0,0,6,0,0,13,0,0%,0,0%,0,0
+Danny Ings,West Ham United,0,0,4,0,0,4,0,0%,0,0%,0,0
+Edson Álvarez,West Ham United,0,207,41,31,9,50,375,49%,87,66%,0,0
+Evan Ferguson,West Ham United,0,0,5,0,0,7,0,0%,0,0%,0,0
+Kaelan Casey,West Ham United,0,0,1,0,0,0,0,0%,0,0%,0,0
+Lewis Orford,West Ham United,0,0,0,0,0,0,0,0%,0,0%,0,0
+Luis Guilherme,West Ham United,0,0,1,0,0,1,0,0%,0,0%,0,0
+Maxwel Cornet,West Ham United,0,0,2,0,0,5,0,0%,0,0%,0,0
+Michail Antonio,West Ham United,0,0,2,0,0,2,0,0%,0,0%,0,0
+Takehiro Tomiyasu,Arsenal,0,0,1,0,0,0,0,0%,0,0%,0,0
+Andrés García,Aston Villa,0,0,8,0,0,9,0,0%,0,0%,0,0
+Donyell Malen,Aston Villa,0,0,1,0,0,7,0,0%,0,0%,0,0
+Emiliano Buendía,Aston Villa,0,0,1,0,0,6,0,0%,0,0%,0,0
+Jacob Ramsey,Aston Villa,0,99,8,2,0,30,143,48%,17,35%,0,0
+Jhon Durán,Aston Villa,0,0,12,0,0,8,0,0%,0,0%,0,0
+Kosta Nedeljkovic,Aston Villa,0,0,3,0,0,7,0,0%,0,0%,0,0
+Niclas Füllkrug,West Ham United,0,0,16,0,0,4,0,0%,0,0%,0,0
+Vladimír Coufal,West Ham United,0,50,36,10,1,22,69,48%,29,28%,0,0
+Alfie Pond,Wolverhampton Wanderers,0,0,0,0,0,0,0,0%,0,0%,0,0
+Boubacar Traoré,Wolverhampton Wanderers,0,0,0,0,0,2,0,0%,0,0%,0,0
+Carlos Forbs,Wolverhampton Wanderers,0,0,2,0,0,8,0,0%,0,0%,0,0
+Chiquinho,Wolverhampton Wanderers,0,0,0,0,0,0,0,0%,0,0%,0,0
+Daniel Podence,Wolverhampton Wanderers,0,0,0,0,0,0,0,0%,0,0%,0,0
+Gonçalo Guedes,Wolverhampton Wanderers,0,53,3,13,9,16,92,55%,18,61%,0,0
+Hwang Hee-Chan,Wolverhampton Wanderers,0,0,10,0,0,6,0,0%,0,0%,0,0
+Jean-Ricner Bellegarde,Wolverhampton Wanderers,0,154,17,42,18,39,147,52%,86,52%,0,0
+Yerson Mosquera,Wolverhampton Wanderers,0,0,14,0,0,11,0,0%,0,0%,0,0

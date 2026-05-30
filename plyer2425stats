@@ -16,8 +16,8 @@ dir.mkdir(parents=True, exist_ok=True)
 #Descriptive Analytics & Traditional Leaderboards
 
 #Finishing
-fin_stats = data[['Player Name', 'Club', 'Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']]
-top_finishers = fin_stats[fin_stats.Goals > 10][['Player Name', 'Club', 'Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']].sort_values(by='Goals', ascending=False)
+fin_stats = data[(data['Position'] != 'GKP') & (data['Position'] != 'DEF')][['Player Name', 'Club', 'Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']]
+top_finishers = fin_stats[['Player Name', 'Club', 'Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']].sort_values(by='Goals', ascending=False)
 top_finishers.to_csv(dir / "top_finishers.csv", index=False)
 
 #Best Finisher
@@ -35,7 +35,7 @@ top_fin_per = top_fin_per.sort_values(by='Attacking_Percentile', ascending=False
 top_fin_per.to_csv(dir / "top_finishers_percentiles.csv", index=False)
 
 #Creativity
-creativ_stats = data[['Player Name', 'Club', 'Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance']]
+creativ_stats = data[(data['Position'] != 'DEF')][['Player Name', 'Club', 'Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance']]
 top_creators = creativ_stats[creativ_stats.Assists > 5][['Player Name', 'Club', 'Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls', 'Carries', 'Progressive Carries', 'Carries Ended with Goal', 'Carries Ended with Assist', 'Carries Ended with Shot', 'Carries Ended with Chance']].sort_values(by='Assists', ascending=False)
 top_creators.to_csv(dir / "top_creators.csv", index=False)
 
@@ -60,7 +60,7 @@ top_cre_per.to_csv(dir / "top_creators_percentiles.csv", index=False)
 
 #Defence    
 def_stats = data[['Player Name', 'Club', 'Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']]
-top_defenders = data[data['Clean Sheets'] > 5][data['Position'] != 'GKP'][['Player Name', 'Club', 'Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']].sort_values(by='Clean Sheets', ascending=False)
+top_defenders = data[(data['Position'] != 'GKP')][['Player Name', 'Club', 'Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']].sort_values(by='Clean Sheets', ascending=False)
 top_defenders.to_csv(dir / "top_defenders.csv", index=False)
 
 #Best Defender
@@ -87,7 +87,7 @@ top_def_per.to_csv(dir / "top_defenders_percentiles.csv", index=False)
 
 #Goalkeeper's Association
 gk_stats = data[['Player Name', 'Club', 'Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']]
-top_goalkeepers = data[data['Position'] == 'GKP'][data['Clean Sheets'] > 5][['Player Name', 'Club', 'Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']].sort_values(by='Clean Sheets', ascending=False)
+top_goalkeepers = data[data['Position'] == 'GKP'][['Player Name', 'Club', 'Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']].sort_values(by='Clean Sheets', ascending=False)
 top_goalkeepers.to_csv(dir / "top_goalkeepers.csv", index=False)
 
 #Best Goalkeeper
@@ -306,7 +306,7 @@ kmeans.fit(X_attack)
 
 #Player Similarity Finder
 print("Player Similarity Finder")
-while True:
+#while True:
     player_name = input("Enter a player's name or e to exit:")
     if player_name.lower() == 'e':
         break

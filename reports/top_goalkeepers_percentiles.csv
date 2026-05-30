@@ -1,15 +1,46 @@
 Player Name,Club,Clean Sheets_Percentile,Goals Conceded_Percentile,Saves_Percentile,Saves %_Percentile,Penalties Saved_Percentile,Punches_Percentile,High Claims_Percentile,Goals Prevented_Percentile,Goalkeeping_Percentile
-Jordan Pickford,Everton,85.71,53.57,92.86,92.86,96.43,92.86,57.14,100.0,83.93
-Matz Sels,Nottingham Forest,96.43,71.43,85.71,64.29,28.57,100.0,21.43,78.57,68.3
-Dean Henderson,Crystal Palace,78.57,85.71,78.57,25.0,71.43,60.71,50.0,85.71,66.96
-Mark Flekken,Brentford,14.29,92.86,100.0,92.86,28.57,71.43,78.57,21.43,62.5
-Robert Sánchez,Chelsea,67.86,25.0,57.14,92.86,71.43,17.86,85.71,50.0,58.48
-Nick Pope,Newcastle United,35.71,35.71,35.71,64.29,71.43,82.14,71.43,64.29,57.59
-Emiliano Martínez,Aston Villa,35.71,64.29,71.43,42.86,71.43,35.71,100.0,28.57,56.25
-David Raya,Arsenal,96.43,25.0,28.57,64.29,28.57,50.0,92.86,50.0,54.46
-Kepa,Bournemouth,35.71,42.86,64.29,50.0,28.57,82.14,32.14,50.0,48.21
-Alisson Becker,Liverpool,53.57,14.29,21.43,78.57,28.57,60.71,7.14,71.43,41.96
-André Onana,Manchester United,53.57,53.57,42.86,25.0,71.43,17.86,32.14,35.71,41.52
-José Sá,Wolverhampton Wanderers,14.29,78.57,14.29,7.14,96.43,17.86,64.29,14.29,38.4
-Ederson,Manchester City,67.86,7.14,7.14,35.71,28.57,42.86,14.29,92.86,37.05
-Bart Verbruggen,Brighton & Hove Albion,14.29,100.0,50.0,14.29,28.57,17.86,42.86,7.14,34.38
+Jordan Pickford,Everton,95.56,78.89,95.56,97.78,97.78,97.78,84.44,100.0,93.47
+Dean Henderson,Crystal Palace,93.33,88.89,88.89,65.56,85.56,81.11,81.11,95.56,85.0
+Matz Sels,Nottingham Forest,98.89,84.44,93.33,88.89,38.89,100.0,64.44,93.33,82.78
+Nick Pope,Newcastle United,80.0,68.89,73.33,88.89,85.56,93.33,90.0,80.0,82.5
+Mark Flekken,Brentford,73.33,93.33,100.0,97.78,38.89,87.78,93.33,61.11,80.69
+Emiliano Martínez,Aston Villa,80.0,82.22,84.44,76.67,85.56,65.56,100.0,65.56,80.0
+David Raya,Arsenal,98.89,65.56,71.11,88.89,38.89,77.78,97.78,75.56,76.81
+Robert Sánchez,Chelsea,90.0,65.56,80.0,97.78,85.56,18.89,95.56,75.56,76.11
+Mads Hermansen,Leicester City,36.67,96.67,86.67,52.22,85.56,87.78,75.56,82.22,75.42
+Kepa,Bournemouth,80.0,73.33,82.22,83.33,38.89,93.33,67.78,75.56,74.31
+Alisson Becker,Liverpool,85.56,60.0,66.67,93.33,38.89,81.11,55.56,91.11,71.53
+Bernd Leno,Fulham,67.78,91.11,91.11,65.56,85.56,93.33,71.11,4.44,71.25
+Aaron Ramsdale,Southampton,56.67,100.0,97.78,60.0,97.78,18.89,73.33,57.78,70.28
+André Onana,Manchester United,85.56,78.89,75.56,65.56,85.56,18.89,67.78,68.89,68.34
+Ederson,Manchester City,90.0,57.78,57.78,72.22,38.89,72.22,60.0,97.78,68.33
+Guglielmo Vicario,Tottenham Hotspur,62.22,71.11,60.0,56.67,38.89,84.44,81.11,84.44,67.36
+José Sá,Wolverhampton Wanderers,73.33,86.67,64.44,46.67,97.78,18.89,86.67,7.78,60.28
+Caoimhín Kelleher,Liverpool,62.22,47.78,44.44,76.67,85.56,53.33,38.89,71.11,60.0
+Martin Dúbravka,Newcastle United,67.78,47.78,50.0,83.33,38.89,53.33,50.0,86.67,59.72
+Lukasz Fabianski,West Ham United,52.22,55.56,55.56,80.0,38.89,18.89,50.0,88.89,55.0
+Bart Verbruggen,Brighton & Hove Albion,73.33,96.67,77.78,48.89,38.89,18.89,77.78,2.22,54.31
+Stefan Ortega,Manchester City,56.67,53.33,53.33,56.67,38.89,65.56,38.89,65.56,53.61
+Alphonse Areola,West Ham United,62.22,75.56,68.89,65.56,38.89,18.89,62.22,7.78,50.0
+Arijanet Muric,Ipswich Town,36.67,62.22,62.22,72.22,38.89,18.89,90.0,11.11,49.03
+Jakub Stolarczyk,Leicester City,52.22,51.11,46.67,52.22,38.89,18.89,50.0,61.11,46.39
+Antonín Kinsky,Tottenham Hotspur,36.67,23.33,41.11,23.33,38.89,75.56,50.0,34.44,40.42
+Christian Walton,Ipswich Town,36.67,23.33,33.33,23.33,38.89,53.33,57.78,34.44,37.64
+Altay Bayindir,Manchester United,36.67,23.33,22.22,23.33,38.89,72.22,32.22,34.44,35.42
+Mark Travers,Bournemouth,36.67,23.33,33.33,23.33,38.89,68.89,15.56,34.44,34.3
+Alex McCarthy,Southampton,12.22,23.33,41.11,23.33,38.89,53.33,43.33,34.44,33.75
+Sam Johnstone,Wolverhampton Wanderers,12.22,23.33,37.78,23.33,38.89,53.33,43.33,34.44,33.33
+Fraser Forster,Tottenham Hotspur,36.67,23.33,50.0,23.33,38.89,18.89,32.22,34.44,32.22
+Robin Olsen,Aston Villa,36.67,23.33,22.22,23.33,38.89,40.0,28.89,34.44,30.97
+Jason Steele,Brighton & Hove Albion,36.67,23.33,14.44,23.33,38.89,53.33,22.22,34.44,30.83
+Dan Bentley,Wolverhampton Wanderers,36.67,23.33,22.22,23.33,38.89,53.33,7.78,34.44,30.0
+Joe Lumley,Southampton,12.22,23.33,28.89,23.33,38.89,53.33,22.22,34.44,29.58
+Neto,Arsenal,12.22,23.33,26.67,23.33,38.89,53.33,22.22,34.44,29.3
+Filip Jørgensen,Chelsea,36.67,23.33,33.33,23.33,38.89,18.89,22.22,34.44,28.89
+Hákon Valdimarsson,Brentford,12.22,23.33,14.44,23.33,38.89,40.0,22.22,34.44,26.11
+Brandon Austin,Tottenham Hotspur,12.22,23.33,11.11,23.33,38.89,18.89,35.56,34.44,24.72
+Vítezslav Jaros,Liverpool,12.22,23.33,8.89,23.33,38.89,40.0,7.78,34.44,23.61
+Emerson,West Ham United,36.67,23.33,4.44,23.33,38.89,18.89,7.78,34.44,23.47
+Danny Ward,Leicester City,12.22,23.33,17.78,23.33,38.89,18.89,7.78,34.44,22.08
+Josh King,Fulham,12.22,23.33,4.44,23.33,38.89,18.89,7.78,34.44,20.42
+Tom King,Wolverhampton Wanderers,12.22,23.33,4.44,23.33,38.89,18.89,7.78,34.44,20.42
