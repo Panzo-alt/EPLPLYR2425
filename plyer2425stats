@@ -334,10 +334,47 @@ while con:
         continue
 
     if pos == 'GKP':
-        for i in range(len(top_goalkeepers)):
-            p1 = np.array(top_goalkeepers[top_goalkeepers['Player Name'] == player_name][['Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']])
-            p2 = np.array(top_goalkeepers[['Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']])
-            eclid = np.sqrt(np.sum((p1 - p2) ** 2, axis=1))
-            top_match = np.argpartition(eclid, 1)
+        p1 = np.array(top_goalkeepers[top_goalkeepers['Player Name'] == player_name][['Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']])
+        p2 = np.array(top_goalkeepers[['Clean Sheets', 'Goals Conceded', 'Saves', 'Saves %', 'Penalties Saved', 'Punches', 'High Claims', 'Goals Prevented']])
+        eclid = np.sqrt(np.sum((p1 - p2) ** 2, axis=1))
+        target_idx = np.where(top_goalkeepers['Player Name'] == player_name)
+        eclid[target_idx] = np.inf  # Set their distance to themselves to Infinity
+        top_match = np.argmin(eclid)
             
-    print(top_goalkeepers.iloc[top_match]['Player Name'], "is the most similar player to", player_name)        
+        print(top_goalkeepers.iloc[top_match]['Player Name'], "is the most similar player to", player_name)     
+
+    if pos == 'DEF':
+        p1 = np.array(top_defenders[top_defenders['Player Name'] == player_name][['Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']])
+        p2 = np.array(top_defenders[['Clean Sheets', 'Possession Won', 'Clearances', 'Interceptions', 'Blocks', 'Tackles', 'Ground Duels', 'gDuels %', 'Aerial Duels', 'aDuels %', 'xGoT Conceded', 'Goals Conceded']])
+        eclid = np.sqrt(np.sum((p1 - p2) ** 2, axis=1))
+        target_idx = np.where(top_defenders['Player Name'] == player_name)
+        eclid[target_idx] = np.inf  # Set their distance to themselves to Infinity
+        top_match = np.argmin(eclid)
+
+        print(top_defenders.iloc[top_match]['Player Name'], "is the most similar player to", player_name)
+
+    if pos == 'MID' or pos == 'FWD':
+        cat = input("Are you looking more at finishing or creativity? (F/C): ").upper()
+        if cat == 'F':
+            p1 = np.array(top_finishers[top_finishers['Player Name'] == player_name][['Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']])
+            p2 = np.array(top_finishers[['Goals', 'Shots', 'Shots On Target', 'Conversion %', 'Big Chances Missed', 'Hit Woodwork', 'Offsides']])
+            eclid = np.sqrt(np.sum((p1 - p2) ** 2, axis=1))
+            target_idx = np.where(top_finishers['Player Name'] == player_name)
+            eclid[target_idx] = np.inf  # Set their distance to themselves to Infinity
+            top_match = np.argmin(eclid)
+
+            print(top_finishers.iloc[top_match]['Player Name'], "is the most similar player to", player_name)
+
+        elif cat == 'C':
+            p1 = np.array(top_creators[top_creators['Player Name'] == player_name][['Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls']])
+            p2 = np.array(top_creators[['Assists', 'Touches', 'Passes', 'Passes%', 'Crosses', 'Crosses %', 'fThird Passes', 'fThird Passes %', 'Through Balls']])
+            eclid = np.sqrt(np.sum((p1 - p2) ** 2, axis=1))
+            target_idx = np.where(top_creators['Player Name'] == player_name)
+            eclid[target_idx] = np.inf  # Set their distance to themselves to Infinity
+            top_match = np.argmin(eclid)
+
+            print(top_creators.iloc[top_match]['Player Name'], "is the most similar player to", player_name)
+
+        else:
+            print("Invalid category. Please enter F for finisher or C for creator.")
+            continue        
