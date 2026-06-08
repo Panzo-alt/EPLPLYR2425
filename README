@@ -1,0 +1,46 @@
+# English Premier League Player Stats 2024/25 ⚽📊
+
+## 📋 Project Overview
+A comprehensive data analytics pipeline engineered to process, structure, and analyze soccer player datasets for the 2024-2025 English Premier League season. This project integrates overall club statistics with individual player metrics to generate advanced analytical reports and evaluate top performers across various positional archetypes.
+
+## 🚀 Key Features
+* **Automated Data Processing:** Structures and cleans raw EPL datasets, merging individual player performance data with broader club statistics for holistic analysis.
+* **Advanced Positional Metrics:** Calculates standardized per-90-minute statistics and percentile rankings tailored to distinct player roles:
+  * 🪄 *Creators* (Chances created, through balls, assists)
+  * 🛡️ *Defenders* (Tackles, interceptions, clearances)
+  * 🎯 *Finishers* (Goals, shots on target, xG)
+  * 🧤 *Goalkeepers* (Save percentage, clean sheets, distribution)
+* **Exploratory Data Analysis (EDA):** Generates multivariate visualisations to highlight key sporting correlations and tactical trends.
+
+## 📈 Visualised Trends & Correlations
+The EDA module maps out critical on-pitch relationships, including:
+* **Goals vs. Shots on Target:** Assessing clinical finishing and shot efficiency.
+* **Crosses vs. Through Balls:** Analyzing distinct playmaking and wide vs. central progression styles.
+* **Carries vs. Chances Created:** Evaluating the impact of ball progression on final-third threat.
+
+## 🛠️ Technologies Used
+* **Language:** Python (or R)
+* **Data Manipulation:** Pandas, NumPy
+* **Visualisation:** Matplotlib, Seaborn (or ggplot2)
+* **Environment:** Jupyter Notebook / Python Scripts
+
+## ⚙️ Installation & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Panzo-alt/EPLPLYR2425.git](https://github.com/Panzo-alt/EPLPLYR2425.git)
+   cd EPLPLYR2425
+
+2. Install required dependencies:
+pip install -r requirements.txt
+
+EPLPLYR2425/
+│
+├── data/               # Raw and processed datasets
+├── notebooks/          # Jupyter notebooks for EDA and visualisation
+├── src/                # Source code for data cleaning and metric calculation
+├── visuals/            # Exported graphs and correlation scatter plots
+├── requirements.txt    # Project dependencies
+└── README.md           # Project documentation
+
+Email: tarusengapanashe9@gmail.com
